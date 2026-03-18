@@ -1209,12 +1209,16 @@ const cityMeta = {
   nyc: {
     label: "New York",
     eyebrow: "Current New York Stage Guide • Updated March 17, 2026",
-    sectionTitle: "Current New York productions"
+    sectionTitle: "Current New York productions",
+    statNote: "current NYC productions in this guide",
+    categories: ["All", "Most Popular", "Newest", "Broadway", "Off-Broadway", "Musicals", "Plays", "Dance"]
   },
   la: {
     label: "Los Angeles",
     eyebrow: "Current Los Angeles Stage Guide • Updated March 17, 2026",
-    sectionTitle: "Current Los Angeles productions"
+    sectionTitle: "Current Los Angeles productions",
+    statNote: "current LA productions in this guide",
+    categories: ["All", "Most Popular", "Newest", "Musicals", "Plays", "Dance"]
   }
 };
 
@@ -1226,7 +1230,13 @@ const state = {
   selectedCity: null
 };
 
-const categories = ["All", "Most Popular", "Newest", "Broadway", "Off-Broadway", "Musicals", "Plays", "Dance"];
+function currentCityMeta() {
+  return cityMeta[state.selectedCity] || cityMeta.nyc;
+}
+
+function currentCategories() {
+  return currentCityMeta().categories;
+}
 
 function sceneClass(scene) {
   if (scene === "Broadway") return "scene-broadway";
@@ -1254,6 +1264,7 @@ const formatMoney = (value) =>
 function renderStats() {
   const shows = currentShows();
   document.getElementById("show-count").textContent = `${shows.length}`;
+  document.getElementById("show-count-note").textContent = currentCityMeta().statNote;
   document.getElementById("lowest-standard").textContent = formatMoney(
     Math.min(...shows.map((show) => show.regularPrice))
   );
@@ -1263,7 +1274,7 @@ function renderFilters() {
   const container = document.getElementById("tag-filters");
   container.innerHTML = "";
 
-  categories.forEach((category) => {
+  currentCategories().forEach((category) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `filter-chip${state.activeCategory === category ? " active" : ""}`;
@@ -1505,15 +1516,22 @@ function syncDesktopPaneHeight() {
 function applyFilters() {
   if (!state.selectedCity) return;
   const filtered = filteredShows();
+  const availableCategories = currentCategories();
 
-  if (!filtered.some((show) => show.id === state.selectedId) && filtered.length) {
+  if (!availableCategories.includes(state.activeCategory)) {
+    state.activeCategory = "All";
+  }
+
+  const nextFiltered = filteredShows();
+
+  if (!nextFiltered.some((show) => show.id === state.selectedId) && nextFiltered.length) {
     state.selectedId = null;
   }
 
   renderFilters();
-  renderSummary(filtered);
-  renderList(filtered);
-  renderDetail(filtered.find((show) => show.id === state.selectedId) || null);
+  renderSummary(nextFiltered);
+  renderList(nextFiltered);
+  renderDetail(nextFiltered.find((show) => show.id === state.selectedId) || null);
   syncDesktopPaneHeight();
 }
 
