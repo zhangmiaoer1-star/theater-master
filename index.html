@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theater Master</title>
+    <meta
+      name="description"
+      content="A New York theater guide covering Broadway, Off-Broadway, local theater and dance, with pricing, official sites, and current productions."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-eyebrow">Current Stage Guide • Updated March 17, 2026</p>
+          <h1>Theater Master</h1>
+          <p class="lede">
+            Start by choosing a city. Then browse that city's current productions,
+            official links, pricing, and practical show details in one place.
+          </p>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-label">Now playing</span>
+            <strong id="show-count">0</strong>
+            <span class="stat-note">current NYC productions in this guide</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Lowest regular ticket</span>
+            <strong id="lowest-standard">-</strong>
+            <span class="stat-note">observed ticket starting price</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="city-selector" class="city-selector">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Choose A City</p>
+              <h2>Start with a city</h2>
+            </div>
+            <p class="result-summary">Pick a city to browse its current productions.</p>
+          </div>
+          <div class="city-grid">
+            <button class="city-card city-card-nyc" id="choose-nyc" type="button">
+              <span class="city-kicker">East Coast Hub</span>
+              <strong>New York</strong>
+              <span>Broadway, Off-Broadway, local theater, immersive work, and dance.</span>
+            </button>
+            <button class="city-card city-card-la" id="choose-la" type="button">
+              <span class="city-kicker">West Coast Hub</span>
+              <strong>Los Angeles</strong>
+              <span>Touring musicals, major regional theaters, and current local productions.</span>
+            </button>
+          </div>
+        </section>
+
+        <section id="city-bar" class="control-panel" hidden>
+          <div class="search-box">
+            <span>Current city</span>
+            <strong id="current-city-label">New York</strong>
+          </div>
+          <button class="link-btn secondary" id="back-to-cities" type="button">Change city</button>
+        </section>
+
+        <section id="browse-controls" class="control-panel" aria-label="Search and filters" hidden>
+          <label class="search-box">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Try Wicked, Public Theater, dance, play..."
+            />
+          </label>
+
+          <div class="filter-group" id="tag-filters" aria-label="Genre filters"></div>
+
+          <label class="sort-box">
+            <span>Sort by</span>
+            <select id="sort-select">
+              <option value="regular-asc">Lowest regular price</option>
+              <option value="title-asc">Title A-Z</option>
+              <option value="popular-first">Popular first</option>
+            </select>
+          </label>
+        </section>
+
+        <section id="city-layout" class="layout" hidden>
+          <section class="list-panel">
+            <div class="section-header">
+              <div>
+                <p class="eyebrow">Now Playing</p>
+                <h2 id="city-section-title">Current productions</h2>
+              </div>
+              <p id="result-summary" class="result-summary"></p>
+            </div>
+
+            <div id="show-list" class="show-list"></div>
+          </section>
+
+          <aside class="detail-panel">
+            <div id="detail-card" class="detail-card"></div>
+          </aside>
+        </section>
+
+        <section class="source-note">
+          <p class="eyebrow">Source Notes</p>
+          <p>
+            City pages are curated from official production pages, primary ticket
+            pages, and major regional presenters. Regular ticket prices are shown as
+            observed starting prices near March 17, 2026.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
