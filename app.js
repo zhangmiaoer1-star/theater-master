@@ -1108,6 +1108,31 @@ const nycShows = [
 
 const laShows = [
   {
+    id: "la-six",
+    title: "SIX",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-02-18",
+    description: "A current LA engagement at the Pantages that was previously missing from the city page despite an active official listing.",
+    regularPrice: 58,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the specific LA source used here.",
+    ageGuidance: "Age guidance was not clearly surfaced in the specific LA source used here.",
+    officialSiteLabel: "Official Broadway in Hollywood listing",
+    officialSite: "https://www.broadwayinhollywood.com/hollywoodlocals",
+    buyLink: "https://www.broadwayinhollywood.com/hollywoodlocals",
+    posterUrl: "https://imaging.broadway.com/images/poster-178275/w230/222222/134931-3.jpg",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "Its official Pantages listing and active partner-discount inventory make it a clearly relevant current LA musical.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
     id: "la-beetlejuice",
     title: "Beetlejuice",
     type: "Musicals",
@@ -1125,6 +1150,7 @@ const laShows = [
     officialSiteLabel: "Official event page",
     officialSite: "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
     buyLink: "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
+    posterUrl: "https://imaging.broadway.com/images/poster-178275/w230/222222/135457-9.jpg",
     customerRating: null,
     popularityScore: 8.7,
     popularityReason:
@@ -1202,6 +1228,249 @@ const laShows = [
     popularityReason:
       "Included because it is the next major Ahmanson engagement and helps the LA page feel like a fuller city snapshot.",
     sources: ["Ahmanson event listing"]
+  },
+  {
+    id: "la-here-lies-love",
+    title: "Here Lies Love",
+    type: "Musicals",
+    scene: "Center Theatre Group",
+    venue: "Mark Taper Forum",
+    address: "135 North Grand Avenue, Los Angeles",
+    openingDate: "2026-02-11",
+    description: "A current Mark Taper Forum musical engagement and one of the strongest official now-playing additions for the LA page.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime not clearly surfaced in the official season brochure used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season brochure used here.",
+    officialSiteLabel: "Official season brochure",
+    officialSite: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    buyLink: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    customerRating: null,
+    popularityScore: 8.4,
+    popularityReason:
+      "It is a current CTG musical at the Taper with strong institutional visibility and a clear official March 2026 run window.",
+    sources: ["Center Theatre Group season brochure"]
+  },
+  {
+    id: "la-spamalot",
+    title: "Spamalot",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-03-24",
+    description: "A major touring musical coming next to the Pantages, useful as an immediately upcoming LA pick after Beetlejuice.",
+    regularPrice: 45,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 20 minutes",
+    ageGuidance: "Recommended for ages 8+; must be 5+ to enter.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/spamalot",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/spamalot",
+    posterUrl: "https://imaging.broadway.com/images/poster-178275/w230/222222/134064-5.jpg",
+    customerRating: null,
+    popularityScore: 8.3,
+    popularityReason:
+      "Recognizable title, a marquee Pantages booking, and clear official ticketing make it one of the best near-term LA additions.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
+    id: "la-tina",
+    title: "TINA - The Tina Turner Musical",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-04-14",
+    description: "A strong upcoming touring musical at the Pantages that broadens the LA lineup beyond fantasy-comedy titles.",
+    regularPrice: 59,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 45 minutes",
+    ageGuidance: "Recommended for ages 14+; must be 5+ to enter.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/tina",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/tina",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "A mainstream music-biography title with clear official ticketing and a prominent Pantages booking window.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
+    id: "la-mj",
+    title: "MJ",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-04-21",
+    description: "A commercially strong touring musical that helps the LA page reflect the next wave of major Pantages bookings.",
+    regularPrice: 56,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 30 minutes",
+    ageGuidance: "Recommended for ages 8+; must be 5+ to enter.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/mj-1",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/mj-1",
+    posterUrl: "https://imaging.broadway.com/images/poster-178275/w230/222222/136006-3.jpg",
+    customerRating: null,
+    popularityScore: 8.5,
+    popularityReason:
+      "A very recognizable musical title with broad mainstream appeal and a clearly published official Pantages run.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
+    id: "la-master-harold",
+    title: "\"Master Harold\"...and the Boys",
+    type: "Plays",
+    scene: "Geffen Playhouse",
+    venue: "Geffen Playhouse / Gil Cates Theater",
+    address: "10886 Le Conte Avenue, Los Angeles",
+    openingDate: "2026-04-08",
+    description: "A major upcoming Geffen revival that strengthens the LA page's play coverage beyond only one or two local titles.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime not clearly surfaced in the official season listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Geffen listing used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.geffenplayhouse.org/",
+    buyLink: "https://www.geffenplayhouse.org/",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "Geffen is one of the city's most important theater institutions, so this officially listed spring production materially improves the LA play lineup.",
+    sources: ["Geffen Playhouse"]
+  },
+  {
+    id: "la-sound-of-music",
+    title: "The Sound of Music",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-05-05",
+    description: "A major family-friendly Pantages booking with a full official runtime and age listing on Broadway in Hollywood.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 30 minutes, including a 15-minute intermission",
+    ageGuidance: "Recommended for ages 8 and up; children under 5 will not be admitted.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
+    customerRating: null,
+    popularityScore: 8.3,
+    popularityReason:
+      "A high-recognition classic with a clearly published Pantages run and strong family appeal makes it one of the best upcoming LA additions.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
+    id: "la-mamma-mia",
+    title: "Mamma Mia!",
+    type: "Musicals",
+    scene: "Center Theatre Group",
+    venue: "Ahmanson Theatre",
+    address: "135 North Grand Avenue, Los Angeles",
+    openingDate: "2026-06-23",
+    description: "A major officially announced Ahmanson summer musical that gives the LA page a stronger upcoming pipeline.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime not clearly surfaced in the official season brochure used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season brochure used here.",
+    officialSiteLabel: "Official season brochure",
+    officialSite: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    buyLink: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    customerRating: null,
+    popularityScore: 8.6,
+    popularityReason:
+      "An officially announced Ahmanson booking for a highly recognizable hit makes it one of the most valuable future LA additions.",
+    sources: ["Center Theatre Group season brochure"]
+  },
+  {
+    id: "la-hells-kitchen",
+    title: "Hell's Kitchen",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-05-26",
+    description: "A major Pantages engagement with a detailed official listing, including runtime, age guidance, and a surfaced local starting offer.",
+    regularPrice: 53,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 35 minutes, including one intermission",
+    ageGuidance: "Recommended for ages 8 and up; must be 5+ to enter.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
+    customerRating: null,
+    popularityScore: 8.6,
+    popularityReason:
+      "A major Broadway transfer with strong current brand recognition and a detailed official LA event page makes it a top-tier upcoming addition.",
+    sources: ["Broadway in Hollywood", "Hollywood Locals"]
+  },
+  {
+    id: "la-phantom",
+    title: "The Phantom of the Opera",
+    type: "Musicals",
+    scene: "Broadway in Hollywood",
+    venue: "Pantages Theatre",
+    address: "6233 Hollywood Boulevard, Los Angeles",
+    openingDate: "2026-06-24",
+    description: "A major summer Pantages booking and one of the strongest future-tour additions available from an official LA source.",
+    regularPrice: 47,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "2 hours 35 minutes",
+    ageGuidance: "Recommended for ages 8+; must be 5+ to enter.",
+    officialSiteLabel: "Official event page",
+    officialSite: "https://www.broadwayinhollywood.com/events/detail/phantom",
+    buyLink: "https://www.broadwayinhollywood.com/events/detail/phantom",
+    posterUrl: "https://imaging.broadway.com/images/poster-178275/w230/222222/102991-4.jpg",
+    customerRating: null,
+    popularityScore: 8.8,
+    popularityReason:
+      "A huge legacy title with a clearly published official LA run, price point, and age guidance makes it one of the strongest future-musical additions.",
+    sources: ["Broadway in Hollywood"]
+  },
+  {
+    id: "la-primary-trust",
+    title: "Primary Trust",
+    type: "Plays",
+    scene: "Center Theatre Group",
+    venue: "Mark Taper Forum",
+    address: "135 North Grand Avenue, Los Angeles",
+    openingDate: "2026-05-20",
+    description: "A Pulitzer-winning play officially announced for the Taper, adding a stronger literary-theater presence to the LA page.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime not clearly surfaced in the official season brochure used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season brochure used here.",
+    officialSiteLabel: "Official season brochure",
+    officialSite: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    buyLink: "https://www.centertheatregroup.org/media/4xvpzofh/2025-26-season-brochure.pdf",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "A Pulitzer Prize-winning title and an official Taper booking make it a meaningful upcoming LA play inclusion.",
+    sources: ["Center Theatre Group season brochure"]
   }
 ];
 
@@ -1211,14 +1480,14 @@ const cityMeta = {
     eyebrow: "Current New York Stage Guide • Updated March 17, 2026",
     sectionTitle: "Current New York productions",
     statNote: "current NYC productions in this guide",
-    categories: ["All", "Most Popular", "Newest", "Broadway", "Off-Broadway", "Musicals", "Plays", "Dance"]
+    categories: ["All", "Most Popular", "Newest", "Upcoming", "Broadway", "Off-Broadway", "Musicals", "Plays", "Dance"]
   },
   la: {
     label: "Los Angeles",
     eyebrow: "Current Los Angeles Stage Guide • Updated March 17, 2026",
     sectionTitle: "Current Los Angeles productions",
     statNote: "current LA productions in this guide",
-    categories: ["All", "Most Popular", "Newest", "Musicals", "Plays", "Dance"]
+    categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
   }
 };
 
@@ -1238,12 +1507,22 @@ function currentCategories() {
   return currentCityMeta().categories;
 }
 
+const guideDate = "2026-03-17";
+
+function productionStatus(show) {
+  return show.openingDate > guideDate ? "Upcoming" : "Current";
+}
+
 function sceneClass(scene) {
   if (scene === "Broadway") return "scene-broadway";
   if (scene === "Off-Broadway") return "scene-off";
   if (scene === "Other NYC / immersive") return "scene-immersive";
   if (scene === "Other NYC / local venues") return "scene-local";
   return "scene-generic";
+}
+
+function statusClass(show) {
+  return productionStatus(show) === "Upcoming" ? "status-upcoming" : "status-current";
 }
 
 function posterSrc(show) {
@@ -1261,13 +1540,16 @@ const formatMoney = (value) =>
     maximumFractionDigits: value % 1 === 0 ? 0 : 2
   }).format(value);
 
+const formatRegularPrice = (value) => (typeof value === "number" ? formatMoney(value) : "Price TBA");
+
 function renderStats() {
   const shows = currentShows();
+  const pricedShows = shows.filter((show) => typeof show.regularPrice === "number");
   document.getElementById("show-count").textContent = `${shows.length}`;
   document.getElementById("show-count-note").textContent = currentCityMeta().statNote;
-  document.getElementById("lowest-standard").textContent = formatMoney(
-    Math.min(...shows.map((show) => show.regularPrice))
-  );
+  document.getElementById("lowest-standard").textContent = pricedShows.length
+    ? formatMoney(Math.min(...pricedShows.map((show) => show.regularPrice)))
+    : "TBA";
 }
 
 function renderFilters() {
@@ -1311,6 +1593,8 @@ function filteredShows() {
     filtered = [...filtered].sort(
       (a, b) => new Date(b.openingDate).getTime() - new Date(a.openingDate).getTime()
     );
+  } else if (state.activeCategory === "Upcoming") {
+    filtered = filtered.filter((show) => productionStatus(show) === "Upcoming");
   } else if (state.activeCategory === "Broadway") {
     filtered = filtered.filter((show) => show.scene === "Broadway");
   } else if (state.activeCategory === "Off-Broadway") {
@@ -1321,7 +1605,12 @@ function filteredShows() {
 
   if (state.activeCategory !== "Newest") {
     filtered = [...filtered].sort((a, b) => {
-      if (state.sortBy === "regular-asc") return a.regularPrice - b.regularPrice;
+      if (state.sortBy === "regular-asc") {
+        if (typeof a.regularPrice !== "number" && typeof b.regularPrice !== "number") return 0;
+        if (typeof a.regularPrice !== "number") return 1;
+        if (typeof b.regularPrice !== "number") return -1;
+        return a.regularPrice - b.regularPrice;
+      }
       if (state.sortBy === "popular-first") return b.popularityScore - a.popularityScore;
       return a.title.localeCompare(b.title);
     });
@@ -1374,6 +1663,7 @@ function renderList(filtered) {
           <div class="card-top">
             <div>
               <div class="tag-row">
+                <span class="tag ${statusClass(show)}">${productionStatus(show)}</span>
                 <span class="tag">${show.type}</span>
                 <span class="tag ${sceneClass(show.scene)}">${show.scene}</span>
               </div>
@@ -1381,14 +1671,15 @@ function renderList(filtered) {
               <p class="muted">${show.venue} • ${show.address}</p>
             </div>
             <div class="price-box">
-              <strong>${formatMoney(show.regularPrice)}</strong>
-              <span>regular tickets from</span>
+              <strong>${formatRegularPrice(show.regularPrice)}</strong>
+              <span>${typeof show.regularPrice === "number" ? "regular tickets from" : "official pricing pending"}</span>
             </div>
           </div>
           <p>${show.description}</p>
           <p class="subprice">Opens: ${show.openingDate}</p>
           <div class="meta-list">
             <span class="meta-item">Popularity ${show.popularityScore.toFixed(1)}/10</span>
+            <span class="meta-item">${productionStatus(show)}</span>
             <span class="meta-item">${show.customerRating ? `${show.customerRating}/5 customer rating` : "editorial basis only"}</span>
           </div>
         </div>
@@ -1432,8 +1723,12 @@ function renderDetail(show) {
   detail.innerHTML = `
     <div class="detail-header">
       <p class="eyebrow">Show Detail</p>
+      <div class="tag-row">
+        <span class="tag ${statusClass(show)}">${productionStatus(show)}</span>
+        <span class="tag">${show.type}</span>
+        <span class="tag ${sceneClass(show.scene)}">${show.scene}</span>
+      </div>
       <h3>${show.title}</h3>
-      <p class="muted">${show.type} • ${show.scene}</p>
       <p class="muted">${show.venue} • ${show.address}</p>
     </div>
 
@@ -1444,8 +1739,8 @@ function renderDetail(show) {
     <div class="detail-section">
       <h4>Ticket Pricing</h4>
       <div class="detail-price-stack">
-        <div class="deal-highlight">Regular tickets from ${formatMoney(show.regularPrice)}</div>
-        <span class="meta-item">Observed from current official or primary ticket pages around March 17, 2026.</span>
+        <div class="deal-highlight">${typeof show.regularPrice === "number" ? `Regular tickets from ${formatMoney(show.regularPrice)}` : "Regular ticket pricing still to be announced"}</div>
+        <span class="meta-item">${typeof show.regularPrice === "number" ? "Observed from current official or primary ticket pages around March 17, 2026." : "This production is announced, but a stable public starting price was not surfaced in the official source used here."}</span>
       </div>
       <div class="price-grid">
         ${pricePill("Rush", show.rushPrice)}

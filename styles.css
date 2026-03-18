@@ -347,6 +347,17 @@ a {
   color: #35503a;
 }
 
+.status-current {
+  background: rgba(17, 124, 13, 0.14);
+  border: 1px solid rgba(17, 124, 13, 0.22);
+}
+
+.status-upcoming {
+  background: rgba(250, 199, 94, 0.32);
+  border: 1px solid rgba(195, 143, 19, 0.26);
+  color: #6c4d09;
+}
+
 .meta-item {
   padding: 8px 10px;
   border-radius: 14px;
