@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T00:28:46+00:00",
+  "generatedAt": "2026-03-19T00:50:20+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -12,6 +12,158 @@
     },
     "la": {
       "upserts": [
+        {
+          "id": "la-beetlejuice",
+          "title": "Beetlejuice",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-spamalot",
+          "title": "Spamalot",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-tina",
+          "title": "TINA - The Tina Turner Musical",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-mj",
+          "title": "mJ",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/mj-1",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/mj-1",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-sound-of-music",
+          "title": "The Sound of Music",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-hells-kitchen",
+          "title": "Hell's Kitchen",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-phantom",
+          "title": "The Phantom of the Opera",
+          "type": "Musicals",
+          "scene": "Broadway in Hollywood",
+          "venue": "Pantages Theatre",
+          "address": "6233 Hollywood Boulevard, Los Angeles",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://www.broadwayinhollywood.com/events/detail/phantom",
+          "buyLink": "https://www.broadwayinhollywood.com/events/detail/phantom",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Broadway in Hollywood"
+          ]
+        },
+        {
+          "id": "la-song-of-the-north",
+          "title": "Song of the North",
+          "type": "Plays",
+          "scene": "Pasadena / local venues",
+          "venue": "Pasadena Playhouse",
+          "address": "39 South El Molino Avenue, Pasadena",
+          "openingDate": null,
+          "endDate": null,
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
+          "officialSite": "https://my.pasadenaplayhouse.org/3710/3744",
+          "buyLink": "https://my.pasadenaplayhouse.org/3710/3744",
+          "officialSiteLabel": "Official event page",
+          "sources": [
+            "Pasadena"
+          ]
+        },
         {
           "id": "la-kims-convenience",
           "title": "Kim's Convenience",
@@ -64,6 +216,14 @@
       "audit": {
         "source": "Broadway in Hollywood + Pasadena Playhouse + Geffen + CTG",
         "sourceTitles": [
+          "Beetlejuice",
+          "Spamalot",
+          "TINA - The Tina Turner Musical",
+          "mJ",
+          "The Sound of Music",
+          "Hell's Kitchen",
+          "The Phantom of the Opera",
+          "Song of the North",
           "Dragon Mama",
           "\"Master Harold\"...and the Boys",
           "Here Lies Love",
