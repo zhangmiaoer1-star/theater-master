@@ -1862,6 +1862,209 @@ const laShows = [
   }
 ];
 
+const houstonShows = [
+  {
+    id: "hou-earnest",
+    title: "The Importance of Being Earnest",
+    type: "Plays",
+    scene: "Alley Theatre",
+    venue: "Alley Theatre, Hubbard Stage",
+    address: "615 Texas Avenue, Houston",
+    openingDate: "2026-03-06",
+    endDate: "2026-03-29",
+    description: "A current Alley Theatre comedy revival that gives the Houston page a strong classic-play anchor.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official page used here.",
+    officialSiteLabel: "Official show page",
+    officialSite: "https://www.alleytheatre.org/plays/the-importance-of-being-earnest/",
+    buyLink: "https://www.alleytheatre.org/plays/the-importance-of-being-earnest/",
+    customerRating: null,
+    popularityScore: 8.4,
+    popularityReason:
+      "A major current Alley Theatre production with a familiar title and clear official run window makes it a strong Houston current-play entry.",
+    sources: ["Alley Theatre"]
+  },
+  {
+    id: "hou-broken-wings",
+    title: "Broken Wings",
+    type: "Dance",
+    scene: "Houston Ballet",
+    venue: "Wortham Theater Center",
+    address: "501 Texas Avenue, Houston",
+    openingDate: "2026-03-12",
+    endDate: "2026-03-22",
+    description: "A current Houston Ballet program that gives the city page a live dance option in the present-tense lineup.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official season page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season page used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    buyLink: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "It is one of the clearest current Houston Ballet offerings around the guide date and broadens Houston beyond straight plays and touring musicals.",
+    sources: ["Houston Ballet"]
+  },
+  {
+    id: "hou-back-to-the-future",
+    title: "Back to the Future: The Musical",
+    type: "Musicals",
+    scene: "Theatre Under The Stars",
+    venue: "Hobby Center for the Performing Arts",
+    address: "800 Bagby Street, Houston",
+    openingDate: "2026-03-31",
+    endDate: "2026-04-05",
+    description: "A major spring musical booking in Houston with broad family appeal and clear commercial visibility.",
+    regularPrice: 46,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official season page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season page used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.tuts.com/2025-2026-season-packages/",
+    buyLink: "https://www.tuts.com/2025-2026-season-packages/",
+    customerRating: null,
+    popularityScore: 8.9,
+    popularityReason:
+      "A large-format title with wide audience recognition and a clearly published Houston run makes it one of the strongest upcoming musical additions.",
+    sources: ["Theatre Under The Stars"]
+  },
+  {
+    id: "hou-six",
+    title: "SIX",
+    type: "Musicals",
+    scene: "Broadway at the Hobby Center",
+    venue: "Hobby Center for the Performing Arts",
+    address: "800 Bagby Street, Houston",
+    openingDate: "2026-04-07",
+    endDate: "2026-04-12",
+    description: "A high-energy pop musical on the Houston Broadway calendar that helps the city page feel more current and commercial.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the source used here.",
+    ageGuidance: "No stable official age guidance surfaced in the source used here.",
+    officialSiteLabel: "Official season announcement",
+    officialSite: "https://houston.culturemap.com/news/arts/broadway-houston-hobby-center-season/",
+    buyLink: "https://houston.culturemap.com/news/arts/broadway-houston-hobby-center-season/",
+    customerRating: null,
+    popularityScore: 8.8,
+    popularityReason:
+      "It is one of the most broadly recognizable titles in the Houston touring lineup and a clear mainstream draw for the city page.",
+    sources: ["CultureMap Houston"]
+  },
+  {
+    id: "hou-fences",
+    title: "Fences",
+    type: "Plays",
+    scene: "Alley Theatre",
+    venue: "Alley Theatre, Hubbard Stage",
+    address: "615 Texas Avenue, Houston",
+    openingDate: "2026-04-17",
+    endDate: "2026-05-10",
+    description: "An upcoming Alley Theatre production that adds a major American classic to Houston's near-term lineup.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official page used here.",
+    officialSiteLabel: "Official show page",
+    officialSite: "https://www.alleytheatre.org/plays/fences/",
+    buyLink: "https://www.alleytheatre.org/plays/fences/",
+    customerRating: null,
+    popularityScore: 8.5,
+    popularityReason:
+      "A canon title at Houston's flagship regional theater gives the city page stronger serious-play depth.",
+    sources: ["Alley Theatre"]
+  },
+  {
+    id: "hou-beautiful",
+    title: "Beautiful: The Carole King Musical",
+    type: "Musicals",
+    scene: "Theatre Under The Stars",
+    venue: "Hobby Center for the Performing Arts",
+    address: "800 Bagby Street, Houston",
+    openingDate: "2026-05-12",
+    endDate: "2026-05-17",
+    description: "A familiar jukebox musical in Houston's spring lineup that broadens the page's crowd-pleasing options.",
+    regularPrice: 46,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official season page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season page used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.tuts.com/2025-2026-season-packages/",
+    buyLink: "https://www.tuts.com/2025-2026-season-packages/",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "Recognizable music, broad appeal, and a clearly published Houston booking make it an easy upcoming-musical inclusion.",
+    sources: ["Theatre Under The Stars"]
+  },
+  {
+    id: "hou-evening-with-the-stars",
+    title: "An Evening with the Stars",
+    type: "Dance",
+    scene: "Houston Ballet",
+    venue: "Wortham Theater Center",
+    address: "501 Texas Avenue, Houston",
+    openingDate: "2026-05-28",
+    endDate: "2026-06-07",
+    description: "Houston Ballet's annual mixed program gives the guide a clear late-spring dance option with local prestige.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official season page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season page used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    buyLink: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    customerRating: null,
+    popularityScore: 8.0,
+    popularityReason:
+      "It is one of Houston Ballet's clearest late-season offerings and helps the city page feel like a full performing-arts guide rather than a musicals-only list.",
+    sources: ["Houston Ballet"]
+  },
+  {
+    id: "hou-giselle",
+    title: "Giselle",
+    type: "Dance",
+    scene: "Houston Ballet",
+    venue: "Wortham Theater Center",
+    address: "501 Texas Avenue, Houston",
+    openingDate: "2026-06-11",
+    endDate: "2026-06-21",
+    description: "A major classical ballet title in Houston's season that strengthens the page's summer-upcoming dance coverage.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official season page used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official season page used here.",
+    officialSiteLabel: "Official season page",
+    officialSite: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    buyLink: "https://www.houstonballet.org/seasontickets/2025-2026-season/",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "A familiar classical title helps Houston's dance lineup feel fuller and easier to browse for mainstream audiences.",
+    sources: ["Houston Ballet"]
+  }
+];
+
 const shanghaiShows = [
   {
     id: "sh-lion-boy",
@@ -2503,6 +2706,13 @@ const cityMeta = {
     statNote: "current LA productions in this guide",
     categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
   },
+  houston: {
+    label: "Houston",
+    eyebrowPrefix: "Current Houston Stage Guide",
+    sectionTitle: "Current and upcoming Houston productions",
+    statNote: "current and upcoming Houston productions in this guide",
+    categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
+  },
   shanghai: {
     label: "Shanghai",
     eyebrowPrefix: "Current Shanghai Stage Guide",
@@ -2541,6 +2751,7 @@ function currentCategories() {
 const showCatalog = {
   nyc: nycShows.map((show) => ({ ...show })),
   la: laShows.map((show) => ({ ...show })),
+  houston: houstonShows.map((show) => ({ ...show })),
   shanghai: shanghaiShows.map((show) => ({ ...show }))
 };
 
@@ -2566,7 +2777,7 @@ function mergeShowRecords(existing, incoming) {
 function applyOfficialSync(payload) {
   if (!payload || !payload.cities) return;
 
-  ["nyc", "la", "shanghai"].forEach((city) => {
+  ["nyc", "la", "houston", "shanghai"].forEach((city) => {
     const cityPayload = payload.cities[city];
     if (!cityPayload || !Array.isArray(cityPayload.upserts)) return;
 
@@ -2607,6 +2818,7 @@ async function loadOfficialSync() {
 
 function cityTimeZone() {
   if (state.selectedCity === "la") return "America/Los_Angeles";
+  if (state.selectedCity === "houston") return "America/Chicago";
   if (state.selectedCity === "shanghai") return "Asia/Shanghai";
   return "America/New_York";
 }
@@ -2706,6 +2918,14 @@ const assistantProfiles = {
   "la-song-of-the-north": { moods: ["poetic", "visual"], styles: ["spectacle", "artful"], audiences: ["family", "solo"], energy: "low" },
   "la-brigadoon": { moods: ["romantic", "classic"], styles: ["classic", "music-forward"], audiences: ["date", "theater-lover"], energy: "medium" },
   "la-mexodus-pasadena": { moods: ["thoughtful", "warm"], styles: ["new", "music-forward"], audiences: ["solo", "theater-lover"], energy: "medium" },
+  "hou-earnest": { moods: ["funny", "light"], styles: ["classic", "play"], audiences: ["date", "friends"], energy: "medium" },
+  "hou-broken-wings": { moods: ["thoughtful"], styles: ["dance-forward", "artful"], audiences: ["solo", "date"], energy: "medium" },
+  "hou-back-to-the-future": { moods: ["fun", "uplifting"], styles: ["spectacle"], audiences: ["family", "tourist"], energy: "high" },
+  "hou-six": { moods: ["fun", "uplifting"], styles: ["pop"], audiences: ["friends", "tourist"], energy: "high" },
+  "hou-fences": { moods: ["intense", "thoughtful"], styles: ["classic", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "hou-beautiful": { moods: ["warm", "uplifting"], styles: ["music-forward"], audiences: ["date", "friends"], energy: "medium" },
+  "hou-evening-with-the-stars": { moods: ["visual"], styles: ["dance-forward", "artful"], audiences: ["solo", "date"], energy: "medium" },
+  "hou-giselle": { moods: ["romantic"], styles: ["dance-forward", "classic"], audiences: ["date", "solo"], energy: "low" },
   "sh-lion-boy": { moods: ["visual", "uplifting"], styles: ["spectacle", "fantasy"], audiences: ["family"], energy: "medium" },
   "sh-don-juan": { moods: ["romantic", "dramatic"], styles: ["immersive", "classic"], audiences: ["date"], energy: "medium" },
   "sh-musical-stars-gala": { moods: ["uplifting", "energetic"], styles: ["music-forward", "spectacle"], audiences: ["friends", "tourist"], energy: "high" },
@@ -2786,6 +3006,10 @@ function parseAssistantQuery(input, previousProfile = null) {
     containsAny(normalized, ["los angeles", "la ", " la", "hollywood", "洛杉矶"])
   ) {
     profile.city = "la";
+  } else if (
+    containsAny(normalized, ["houston", "休斯顿"])
+  ) {
+    profile.city = "houston";
   } else if (
     containsAny(normalized, ["shanghai", "上海"])
   ) {
@@ -3136,6 +3360,8 @@ function profilePills(profile, city) {
   const pills = [];
   if (city === "la") {
     pills.push("Los Angeles");
+  } else if (city === "houston") {
+    pills.push("Houston");
   } else if (city === "shanghai") {
     pills.push("Shanghai");
   } else {
@@ -3169,7 +3395,7 @@ function assistantGreetingMessage() {
     id: crypto.randomUUID(),
     role: "assistant",
     text:
-      "Tell me your city, mood, who you're going with, and what kind of show you want.",
+      "Tell me your city, mood, who you're going with, and what kind of show you want. I can recommend from New York, Los Angeles, Houston, or Shanghai.",
     recommendations: []
   };
 }
@@ -4214,6 +4440,17 @@ function bindControls() {
 
   document.getElementById("choose-la").addEventListener("click", () => {
     state.selectedCity = "la";
+    state.selectedId = null;
+    state.activeCategory = "All";
+    state.search = "";
+    document.getElementById("search-input").value = "";
+    renderCityShell();
+    renderStats();
+    applyFilters();
+  });
+
+  document.getElementById("choose-houston").addEventListener("click", () => {
+    state.selectedCity = "houston";
     state.selectedId = null;
     state.activeCategory = "All";
     state.search = "";
