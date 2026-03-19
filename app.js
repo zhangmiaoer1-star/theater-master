@@ -1103,6 +1103,304 @@ const nycShows = [
     popularityReason:
       "Included as a strong current NYC dance option, supported by The Joyce's official performance calendar and ticketing pages.",
     sources: ["The Joyce Theater", "Ailey press room"]
+  },
+  {
+    id: "becky-shaw",
+    title: "Becky Shaw",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "Hayes Theater",
+    address: "Manhattan",
+    openingDate: "2026-03-18",
+    endDate: "2026-06-14",
+    description: "Broadway.org lists this Broadway play as now playing at the Hayes Theater through mid-June.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "Included because Broadway.org lists it as currently running at the Hayes Theater through June 14, 2026.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "cats-jellicle-ball",
+    title: "CATS: The Jellicle Ball",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "Broadhurst Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-18",
+    description: "Broadway.org lists this production as now playing at the Broadhurst Theatre with active lottery and rush info.",
+    regularPrice: null,
+    rushPrice: "$45 rush",
+    lotteryPrice: "$49 digital lottery",
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "Broadway.org lists it as active now playing inventory with both rush and lottery information surfaced.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "the-balusters",
+    title: "The Balusters",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "Samuel J. Friedman Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-31",
+    endDate: "2026-05-24",
+    description: "A Broadway play officially listed by Broadway.org as beginning March 31, 2026.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.6,
+    popularityReason:
+      "Included because Broadway.org lists it as an official upcoming Broadway engagement at the Samuel J. Friedman Theatre.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "beaches-a-new-musical",
+    title: "Beaches, A New Musical",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "Majestic Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-27",
+    endDate: "2026-09-06",
+    description: "A Broadway.org-listed upcoming musical beginning March 27, 2026 at the Majestic Theatre.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.8,
+    popularityReason:
+      "Its Broadway.org listing shows a long announced run window at a major Broadway house, making it an important upcoming addition.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "fallen-angels",
+    title: "Fallen Angels",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "Todd Haimes Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-27",
+    endDate: "2026-06-07",
+    description: "A Broadway.org-listed upcoming Broadway play with a clearly surfaced run window at the Todd Haimes Theatre.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.7,
+    popularityReason:
+      "Included because Broadway.org clearly lists its Broadway run dates and venue.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "fear-of-13",
+    title: "The Fear of 13",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "James Earl Jones Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-19",
+    endDate: "2026-07-12",
+    description: "An official upcoming Broadway play listing with active rush and lottery information already surfaced on Broadway.org.",
+    regularPrice: null,
+    rushPrice: "$45 rush",
+    lotteryPrice: "$45 digital lottery",
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 8.0,
+    popularityReason:
+      "It is an imminent Broadway opening with both rush and lottery details already posted by Broadway.org.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "joe-turners-come-and-gone",
+    title: "Joe Turner's Come and Gone",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "Ethel Barrymore Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-30",
+    endDate: "2026-07-12",
+    description: "A Broadway.org-listed upcoming Broadway play at the Ethel Barrymore Theatre.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "Included because Broadway.org lists a full run window and venue for this upcoming production.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "the-lost-boys",
+    title: "The Lost Boys",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "Palace Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-27",
+    description: "A newly listed Broadway title at the Palace Theatre beginning March 27, 2026.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.8,
+    popularityReason:
+      "Its official Broadway.org listing makes it a relevant upcoming Broadway addition even before fuller ticket data surfaces.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "proof",
+    title: "Proof",
+    type: "Plays",
+    scene: "Broadway",
+    venue: "Booth Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-31",
+    endDate: "2026-07-19",
+    description: "A Broadway.org-listed upcoming Broadway revival at the Booth Theatre.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "Broadway.org lists a clearly defined run window for this revival, making it a meaningful upcoming NYC addition.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "rocky-horror-show",
+    title: "The Rocky Horror Show",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "Studio 54",
+    address: "Manhattan",
+    openingDate: "2026-03-26",
+    endDate: "2026-06-21",
+    description: "A Broadway.org-listed upcoming musical engagement at Studio 54.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 8.0,
+    popularityReason:
+      "Its Broadway.org listing and recognizable title make it one of the stronger upcoming NYC musical additions.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "schmigadoon",
+    title: "Schmigadoon!",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "Nederlander Theatre",
+    address: "Manhattan",
+    openingDate: "2026-04-04",
+    endDate: "2026-09-06",
+    description: "A Broadway.org-listed upcoming musical opening in early April at the Nederlander Theatre.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "No stable official age guidance surfaced in the official Broadway.org listing used here.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "Its long Broadway.org-announced run window and high-recognition title make it a useful NYC upcoming addition.",
+    sources: ["Broadway.org"]
+  },
+  {
+    id: "titanique",
+    title: "Titanique",
+    type: "Musicals",
+    scene: "Broadway",
+    venue: "St. James Theatre",
+    address: "Manhattan",
+    openingDate: "2026-03-26",
+    endDate: "2026-07-12",
+    description: "A Broadway.org-listed upcoming engagement at the St. James Theatre beginning March 26, 2026.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the official Broadway.org listing used here.",
+    ageGuidance: "Recommended ages 12+; children under 5 are not permitted and under-16s must be accompanied by an adult.",
+    officialSiteLabel: "Broadway.org listing",
+    officialSite: "https://www.broadway.org/shows",
+    buyLink: "https://www.broadway.org/shows",
+    customerRating: null,
+    popularityScore: 8.0,
+    popularityReason:
+      "Broadway.org lists a clear spring run window for this title, making it an important NYC upcoming addition.",
+    sources: ["Broadway.org"]
   }
 ];
 
@@ -1115,6 +1413,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-02-18",
+    endDate: "2026-03-08",
     description: "A current LA engagement at the Pantages that was previously missing from the city page despite an active official listing.",
     regularPrice: 58,
     rushPrice: null,
@@ -1140,6 +1439,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-03-10",
+    endDate: "2026-03-22",
     description: "A current Los Angeles touring musical at the Pantages with full official runtime, price and age info.",
     regularPrice: 45,
     rushPrice: null,
@@ -1165,6 +1465,7 @@ const laShows = [
     venue: "Pasadena Playhouse",
     address: "39 South El Molino Avenue, Pasadena",
     openingDate: "2026-02-11",
+    endDate: "2026-03-15",
     description: "A current major LA-area play at Pasadena Playhouse with live ticket pages for March performances.",
     regularPrice: 40,
     rushPrice: null,
@@ -1189,6 +1490,7 @@ const laShows = [
     venue: "Geffen Playhouse / Audrey Skirball Kenis Theater",
     address: "10886 Le Conte Avenue, Los Angeles",
     openingDate: "2026-03-04",
+    endDate: "2026-04-12",
     description: "A current Geffen Playhouse production that gives the LA page a stronger local-theater core.",
     regularPrice: 40,
     rushPrice: null,
@@ -1213,6 +1515,7 @@ const laShows = [
     venue: "Ahmanson Theatre",
     address: "135 North Grand Avenue, Los Angeles",
     openingDate: "2026-03-21",
+    endDate: "2026-04-19",
     description: "A major upcoming LA engagement from a flagship regional presenter, included as a near-term city highlight.",
     regularPrice: 39,
     rushPrice: null,
@@ -1237,6 +1540,7 @@ const laShows = [
     venue: "Mark Taper Forum",
     address: "135 North Grand Avenue, Los Angeles",
     openingDate: "2026-02-11",
+    endDate: "2026-03-22",
     description: "A current Mark Taper Forum musical engagement and one of the strongest official now-playing additions for the LA page.",
     regularPrice: null,
     rushPrice: null,
@@ -1261,6 +1565,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-03-24",
+    endDate: "2026-04-12",
     description: "A major touring musical coming next to the Pantages, useful as an immediately upcoming LA pick after Beetlejuice.",
     regularPrice: 45,
     rushPrice: null,
@@ -1286,6 +1591,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-04-14",
+    endDate: "2026-04-19",
     description: "A strong upcoming touring musical at the Pantages that broadens the LA lineup beyond fantasy-comedy titles.",
     regularPrice: 59,
     rushPrice: null,
@@ -1310,6 +1616,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-04-21",
+    endDate: "2026-05-03",
     description: "A commercially strong touring musical that helps the LA page reflect the next wave of major Pantages bookings.",
     regularPrice: 56,
     rushPrice: null,
@@ -1335,6 +1642,7 @@ const laShows = [
     venue: "Geffen Playhouse / Gil Cates Theater",
     address: "10886 Le Conte Avenue, Los Angeles",
     openingDate: "2026-04-08",
+    endDate: "2026-05-10",
     description: "A major upcoming Geffen revival that strengthens the LA page's play coverage beyond only one or two local titles.",
     regularPrice: null,
     rushPrice: null,
@@ -1359,6 +1667,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-05-05",
+    endDate: "2026-05-24",
     description: "A major family-friendly Pantages booking with a full official runtime and age listing on Broadway in Hollywood.",
     regularPrice: null,
     rushPrice: null,
@@ -1383,6 +1692,7 @@ const laShows = [
     venue: "Ahmanson Theatre",
     address: "135 North Grand Avenue, Los Angeles",
     openingDate: "2026-06-23",
+    endDate: "2026-07-19",
     description: "A major officially announced Ahmanson summer musical that gives the LA page a stronger upcoming pipeline.",
     regularPrice: null,
     rushPrice: null,
@@ -1407,6 +1717,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-05-26",
+    endDate: "2026-06-21",
     description: "A major Pantages engagement with a detailed official listing, including runtime, age guidance, and a surfaced local starting offer.",
     regularPrice: 53,
     rushPrice: null,
@@ -1431,6 +1742,7 @@ const laShows = [
     venue: "Pantages Theatre",
     address: "6233 Hollywood Boulevard, Los Angeles",
     openingDate: "2026-06-24",
+    endDate: "2026-08-09",
     description: "A major summer Pantages booking and one of the strongest future-tour additions available from an official LA source.",
     regularPrice: 47,
     rushPrice: null,
@@ -1456,6 +1768,7 @@ const laShows = [
     venue: "Mark Taper Forum",
     address: "135 North Grand Avenue, Los Angeles",
     openingDate: "2026-05-20",
+    endDate: "2026-06-28",
     description: "A Pulitzer-winning play officially announced for the Taper, adding a stronger literary-theater presence to the LA page.",
     regularPrice: null,
     rushPrice: null,
@@ -1471,20 +1784,95 @@ const laShows = [
     popularityReason:
       "A Pulitzer Prize-winning title and an official Taper booking make it a meaningful upcoming LA play inclusion.",
     sources: ["Center Theatre Group season brochure"]
+  },
+  {
+    id: "la-song-of-the-north",
+    title: "Song of the North",
+    type: "Plays",
+    scene: "Pasadena / local venues",
+    venue: "Pasadena Playhouse",
+    address: "39 South El Molino Avenue, Pasadena",
+    openingDate: "2026-03-21",
+    endDate: "2026-03-29",
+    description: "A near-term Pasadena Playhouse booking that helps the LA page capture the next local production after Amadeus closes.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the source used here.",
+    ageGuidance: "No stable official age guidance surfaced in the source used here.",
+    officialSiteLabel: "Official ticket page",
+    officialSite: "https://my.pasadenaplayhouse.org/3710/3744",
+    buyLink: "https://my.pasadenaplayhouse.org/3710/3744",
+    customerRating: null,
+    popularityScore: 7.7,
+    popularityReason:
+      "It is the next clearly ticketed Pasadena Playhouse production and helps keep the LA local-theater calendar current.",
+    sources: ["Pasadena Playhouse"]
+  },
+  {
+    id: "la-brigadoon",
+    title: "Brigadoon",
+    type: "Musicals",
+    scene: "Pasadena / local venues",
+    venue: "Pasadena Playhouse",
+    address: "39 South El Molino Avenue, Pasadena",
+    openingDate: "2026-05-13",
+    endDate: "2026-06-14",
+    description: "A major upcoming Pasadena Playhouse musical revival that broadens the LA page beyond touring-house bookings.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the source used here.",
+    ageGuidance: "No stable official age guidance surfaced in the source used here.",
+    officialSiteLabel: "Official ticket page",
+    officialSite: "https://my.pasadenaplayhouse.org/3749/3751",
+    buyLink: "https://my.pasadenaplayhouse.org/3749/3751",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "A recognizable classic at Pasadena Playhouse materially improves the depth of the LA upcoming-musicals lineup.",
+    sources: ["Pasadena Playhouse"]
+  },
+  {
+    id: "la-mexodus-pasadena",
+    title: "Mexodus",
+    type: "Musicals",
+    scene: "Pasadena / local venues",
+    venue: "Pasadena Playhouse",
+    address: "39 South El Molino Avenue, Pasadena",
+    openingDate: "2026-07-08",
+    endDate: "2026-08-02",
+    description: "An upcoming Pasadena Playhouse production that extends the LA page further into the summer schedule.",
+    regularPrice: null,
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "Runtime was not clearly surfaced in the source used here.",
+    ageGuidance: "No stable official age guidance surfaced in the source used here.",
+    officialSiteLabel: "Official ticket page",
+    officialSite: "https://my.pasadenaplayhouse.org/3752/3754",
+    buyLink: "https://my.pasadenaplayhouse.org/3752/3754",
+    customerRating: null,
+    popularityScore: 7.8,
+    popularityReason:
+      "Including it makes the LA guide feel more like a living city calendar rather than only a short-term snapshot.",
+    sources: ["Pasadena Playhouse"]
   }
 ];
 
 const cityMeta = {
   nyc: {
     label: "New York",
-    eyebrow: "Current New York Stage Guide • Updated March 17, 2026",
+    eyebrowPrefix: "Current New York Stage Guide",
     sectionTitle: "Current New York productions",
     statNote: "current NYC productions in this guide",
     categories: ["All", "Most Popular", "Newest", "Upcoming", "Broadway", "Off-Broadway", "Musicals", "Plays", "Dance"]
   },
   la: {
     label: "Los Angeles",
-    eyebrow: "Current Los Angeles Stage Guide • Updated March 17, 2026",
+    eyebrowPrefix: "Current Los Angeles Stage Guide",
     sectionTitle: "Current Los Angeles productions",
     statNote: "current LA productions in this guide",
     categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
@@ -1496,8 +1884,17 @@ const state = {
   activeCategory: "All",
   sortBy: "regular-asc",
   selectedId: null,
-  selectedCity: null
+  selectedCity: null,
+  assistantOpen: false,
+  assistantPending: false,
+  assistantMessages: [],
+  assistantServerReady: false,
+  assistantPosition: null,
+  assistantDragging: false,
+  assistantPlacement: "up"
 };
+
+const assistantPositionStorageKey = "theater-master-assistant-position";
 
 function currentCityMeta() {
   return cityMeta[state.selectedCity] || cityMeta.nyc;
@@ -1507,9 +1904,969 @@ function currentCategories() {
   return currentCityMeta().categories;
 }
 
-const guideDate = "2026-03-17";
+const showCatalog = {
+  nyc: nycShows.map((show) => ({ ...show })),
+  la: laShows.map((show) => ({ ...show }))
+};
+
+function normalizeShowKey(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function mergeShowRecords(existing, incoming) {
+  const merged = { ...existing };
+
+  Object.entries(incoming).forEach(([key, value]) => {
+    if (value === null || value === undefined || value === "") return;
+    merged[key] = value;
+  });
+
+  return merged;
+}
+
+function applyOfficialSync(payload) {
+  if (!payload || !payload.cities) return;
+
+  ["nyc", "la"].forEach((city) => {
+    const cityPayload = payload.cities[city];
+    if (!cityPayload || !Array.isArray(cityPayload.upserts)) return;
+
+    const existing = showCatalog[city];
+    const indexById = new Map(existing.map((show, index) => [show.id, index]));
+    const indexByTitle = new Map(existing.map((show, index) => [normalizeShowKey(show.title), index]));
+
+    cityPayload.upserts.forEach((incoming) => {
+      const matchIndex =
+        (incoming.id && indexById.get(incoming.id)) ??
+        indexByTitle.get(normalizeShowKey(incoming.title));
+
+      if (typeof matchIndex === "number") {
+        existing[matchIndex] = mergeShowRecords(existing[matchIndex], incoming);
+      } else {
+        existing.push(incoming);
+      }
+    });
+  });
+}
+
+async function loadOfficialSync() {
+  try {
+    const response = await fetch(`./data/official-sync.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) return;
+    const payload = await response.json();
+    applyOfficialSync(payload);
+
+    if (state.selectedCity) {
+      renderCityShell();
+      renderStats();
+      applyFilters();
+    }
+  } catch (error) {
+    console.warn("Official sync not loaded", error);
+  }
+}
+
+function cityTimeZone() {
+  return state.selectedCity === "la" ? "America/Los_Angeles" : "America/New_York";
+}
+
+function currentGuideDate() {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: cityTimeZone(),
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  });
+
+  return formatter.format(new Date());
+}
+
+function formattedGuideDate() {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: cityTimeZone(),
+    month: "long",
+    day: "numeric",
+    year: "numeric"
+  }).format(new Date());
+}
+
+const assistantProfiles = {
+  hamilton: ["classic", "spectacle", "energetic"],
+  wicked: ["uplifting", "spectacle", "fantasy", "family"],
+  "lion-king": ["uplifting", "spectacle", "family", "visual"],
+  hadestown: ["intimate", "atmospheric", "romantic", "bittersweet"],
+  "maybe-happy-ending": ["healing", "warm", "intimate", "romantic"],
+  "death-becomes-her": ["funny", "camp", "spectacle", "light"],
+  "operation-mincemeat": ["funny", "energetic", "clever", "new"],
+  aladdin: ["family", "light", "spectacle", "visual"],
+  juliet: ["uplifting", "pop", "energetic", "romantic"],
+  "book-of-mormon": ["funny", "adult", "irreverent"],
+  "buena-vista-social-club": ["warm", "music-forward", "uplifting"],
+  chicago: ["classic", "sharp", "adult"],
+  "great-gatsby": ["romantic", "spectacle", "classic"],
+  mj: ["energetic", "dance-forward", "spectacle"],
+  "moulin-rouge": ["romantic", "spectacle", "date-night"],
+  six: ["energetic", "pop", "fun"],
+  outsiders: ["intense", "dramatic"],
+  "death-of-a-salesman": ["dramatic", "intense", "classic"],
+  "every-brilliant-thing": ["intimate", "healing", "thoughtful"],
+  "oh-mary": ["funny", "camp", "adult"],
+  "little-shop": ["funny", "dark", "cult"],
+  "spelling-bee": ["funny", "warm", "light"],
+  "play-that-goes-wrong": ["funny", "light", "easy"],
+  "friends-musical-parody": ["funny", "light", "nostalgic"],
+  "gazillion-bubble-show": ["visual", "family", "light", "relaxing"],
+  "drunk-shakespeare": ["funny", "adult", "immersive"],
+  "perfect-crime": ["dark", "thriller"],
+  antigone: ["dramatic", "intense"],
+  touch: ["intimate", "thoughtful"],
+  trash: ["experimental", "local"],
+  "ulster-american": ["funny", "sharp", "adult"],
+  "ice-queen": ["family", "light", "fantasy"],
+  "ailey-ii": ["dance", "expressive", "artful"],
+  "la-six": ["energetic", "pop", "fun"],
+  "la-beetlejuice": ["funny", "dark", "spectacle"],
+  "la-amadeus": ["classic", "dramatic"],
+  "la-dragon-mama": ["intimate", "warm", "thoughtful"],
+  "la-kims-convenience": ["warm", "funny", "healing"],
+  "la-here-lies-love": ["energetic", "immersive", "dance-forward"],
+  "la-spamalot": ["funny", "light", "classic"],
+  "la-tina": ["energetic", "uplifting", "music-forward"],
+  "la-mj": ["energetic", "dance-forward", "spectacle"],
+  "la-master-harold": ["dramatic", "intense"],
+  "la-sound-of-music": ["family", "classic", "uplifting"],
+  "la-mamma-mia": ["uplifting", "fun", "date-night"],
+  "la-hells-kitchen": ["energetic", "new", "music-forward"],
+  "la-phantom": ["classic", "romantic", "spectacle"],
+  "la-primary-trust": ["healing", "intimate", "thoughtful"]
+};
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (character) => {
+    const replacements = {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    };
+    return replacements[character];
+  });
+}
+
+function containsAny(text, terms) {
+  return terms.some((term) => text.includes(term));
+}
+
+function parseAssistantQuery(input) {
+  const text = input.trim();
+  const normalized = text.toLowerCase();
+  const profile = {
+    raw: text,
+    city: null,
+    companions: null,
+    budget: null,
+    mood: null,
+    genre: null,
+    wants: []
+  };
+
+  if (
+    containsAny(normalized, ["new york", "nyc", "manhattan", "broadway", "纽约", "曼哈顿"])
+  ) {
+    profile.city = "nyc";
+  } else if (
+    containsAny(normalized, ["los angeles", "la ", " la", "hollywood", "洛杉矶"])
+  ) {
+    profile.city = "la";
+  }
+
+  if (containsAny(normalized, ["solo", "alone", "by myself", "one person", "一个人", "独自"])) {
+    profile.companions = "solo";
+  } else if (
+    containsAny(normalized, ["date", "dating", "couple", "约会", "两个人", "romantic"])
+  ) {
+    profile.companions = "date";
+  } else if (
+    containsAny(normalized, ["kids", "child", "children", "family", "孩子", "小孩", "家人"])
+  ) {
+    profile.companions = "family";
+  } else if (containsAny(normalized, ["friends", "group", "朋友", "一群"])) {
+    profile.companions = "group";
+  }
+
+  if (
+    containsAny(normalized, [
+      "cheap",
+      "budget",
+      "under $",
+      "under 100",
+      "affordable",
+      "便宜",
+      "预算",
+      "省钱",
+      "低预算"
+    ])
+  ) {
+    profile.budget = "low";
+  } else if (containsAny(normalized, ["premium", "luxury", "best seats", "高预算"])) {
+    profile.budget = "high";
+  }
+
+  if (
+    containsAny(normalized, [
+      "sad",
+      "down",
+      "bad mood",
+      "stressed",
+      "tired",
+      "心情不太好",
+      "心情不好",
+      "低落",
+      "难过",
+      "压力大",
+      "疲惫"
+    ])
+  ) {
+    profile.mood = "low";
+    profile.wants.push("relaxing");
+  } else if (containsAny(normalized, ["celebrate", "party", "excited", "庆祝", "热闹"])) {
+    profile.mood = "up";
+  }
+
+  if (containsAny(normalized, ["relax", "relaxing", "chill", "light", "放松", "轻松", "治愈", "疗愈"])) {
+    profile.wants.push("relaxing");
+  }
+  if (containsAny(normalized, ["funny", "laugh", "comedy", "搞笑", "喜剧", "好笑"])) {
+    profile.wants.push("funny");
+  }
+  if (containsAny(normalized, ["spectacle", "visual", "big", "epic", "华丽", "震撼", "大制作"])) {
+    profile.wants.push("spectacle");
+  }
+  if (containsAny(normalized, ["classic", "iconic", "经典"])) {
+    profile.wants.push("classic");
+  }
+  if (containsAny(normalized, ["new", "newest", "latest", "upcoming", "新作", "新剧", "刚开演"])) {
+    profile.wants.push("new");
+  }
+  if (containsAny(normalized, ["romantic", "date night", "约会", "浪漫", "氛围好"])) {
+    profile.wants.push("romantic");
+  }
+
+  if (containsAny(normalized, ["musical", "音乐剧"])) {
+    profile.genre = "Musicals";
+  } else if (containsAny(normalized, ["dance", "ballet", "舞蹈", "舞剧"])) {
+    profile.genre = "Dance";
+  } else if (containsAny(normalized, ["play", "drama", "话剧"])) {
+    profile.genre = "Plays";
+  }
+
+  profile.wants = [...new Set(profile.wants)];
+  return profile;
+}
+
+function showSignals(show) {
+  const signals = new Set(assistantProfiles[show.id] || []);
+
+  if (show.type === "Musicals") signals.add("musical");
+  if (show.type === "Plays") signals.add("play");
+  if (show.type === "Dance") signals.add("dance");
+  if (show.scene === "Broadway") signals.add("mainstream");
+  if (show.scene === "Off-Broadway") signals.add("intimate");
+  if (show.scene.includes("immersive")) signals.add("immersive");
+  if (productionStatus(show) === "Upcoming") signals.add("upcoming");
+  if (new Date(show.openingDate).getTime() >= new Date("2025-01-01").getTime()) {
+    signals.add("new");
+  }
+
+  return signals;
+}
+
+function recommendShows(profile) {
+  const city = profile.city || state.selectedCity || "nyc";
+  const shows = showCatalog[city].filter(isVisibleOnGuide);
+
+  const ranked = shows.map((show) => {
+    const signals = showSignals(show);
+    const reasons = [];
+    let score = show.popularityScore * 0.35;
+
+    const addReason = (points, reason) => {
+      score += points;
+      if (points > 0 && !reasons.includes(reason)) {
+        reasons.push(reason);
+      }
+    };
+
+    if (profile.genre === "Musicals" && signals.has("musical")) {
+      addReason(2.2, "Matches your preference for a musical.");
+    }
+    if (profile.genre === "Plays" && signals.has("play")) {
+      addReason(2.2, "Matches your preference for a play.");
+    }
+    if (profile.genre === "Dance" && signals.has("dance")) {
+      addReason(2.2, "Matches your preference for dance.");
+    }
+
+    if (profile.budget === "low" && typeof show.regularPrice === "number") {
+      if (show.regularPrice <= 70) {
+        addReason(2.1, `Lower starting price at ${formatMoney(show.regularPrice)}.`);
+      } else if (show.regularPrice <= 100) {
+        addReason(1, `Fairly accessible starting price at ${formatMoney(show.regularPrice)}.`);
+      } else {
+        score -= 1.2;
+      }
+    }
+
+    if (profile.companions === "solo") {
+      if (signals.has("intimate") || signals.has("thoughtful")) {
+        addReason(1.6, "Feels like a strong solo-night pick with a more intimate scale.");
+      }
+      if (signals.has("healing") || signals.has("warm")) {
+        addReason(1.6, "Its warmer tone fits a solo night when you want something gentler.");
+      }
+    }
+
+    if (profile.companions === "date") {
+      if (signals.has("romantic") || signals.has("date-night") || signals.has("atmospheric")) {
+        addReason(2.2, "Strong date-night atmosphere.");
+      }
+    }
+
+    if (profile.companions === "family") {
+      if (signals.has("family") || signals.has("visual")) {
+        addReason(2.4, "Good family fit with broad appeal or strong visuals.");
+      }
+      if (signals.has("adult") || signals.has("dark")) {
+        score -= 3.6;
+      }
+    }
+
+    if (profile.companions === "group") {
+      if (signals.has("funny") || signals.has("energetic") || signals.has("spectacle")) {
+        addReason(1.4, "Works well for a more social group outing.");
+      }
+    }
+
+    if (profile.mood === "low") {
+      if (
+        signals.has("healing") ||
+        signals.has("warm") ||
+        signals.has("uplifting") ||
+        signals.has("light")
+      ) {
+        addReason(2.4, "Better fit for lifting the mood without feeling heavy.");
+      }
+      if (signals.has("funny")) {
+        addReason(2, "Comedy energy makes it a good pick when you want to feel better.");
+      }
+      if (signals.has("dark") || signals.has("intense") || signals.has("dramatic")) {
+        score -= 2.4;
+      }
+    }
+
+    if (profile.wants.includes("relaxing")) {
+      if (signals.has("healing") || signals.has("light") || signals.has("warm") || signals.has("visual")) {
+        addReason(2, "Leans relaxing, easy, or visually soothing.");
+      }
+    }
+
+    if (profile.wants.includes("funny") && signals.has("funny")) {
+      addReason(2, "Direct comedy match.");
+    }
+
+    if (profile.wants.includes("spectacle") && (signals.has("spectacle") || signals.has("visual"))) {
+      addReason(2, "Brings the bigger-scale theatrical wow factor.");
+    }
+
+    if (profile.wants.includes("classic") && signals.has("classic")) {
+      addReason(2, "Strong classic-title match.");
+    }
+
+    if (profile.wants.includes("new") && (signals.has("new") || signals.has("upcoming"))) {
+      addReason(1.8, "Fits your interest in newer or near-term productions.");
+    }
+
+    if (profile.wants.includes("romantic") && (signals.has("romantic") || signals.has("date-night"))) {
+      addReason(2, "Has a more romantic atmosphere.");
+    }
+
+    if (!reasons.length && show.popularityScore >= 9.2) {
+      addReason(0.8, "A strong fallback because it is one of the guide's most reliable audience favorites.");
+    }
+
+    return { show, score, reasons: reasons.slice(0, 3) };
+  });
+
+  ranked.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    const aPrice = typeof a.show.regularPrice === "number" ? a.show.regularPrice : Number.POSITIVE_INFINITY;
+    const bPrice = typeof b.show.regularPrice === "number" ? b.show.regularPrice : Number.POSITIVE_INFINITY;
+    return aPrice - bPrice;
+  });
+
+  return {
+    city,
+    parsed: profile,
+    recommendations: ranked.slice(0, 3)
+  };
+}
+
+function profilePills(profile, city) {
+  const pills = [];
+  pills.push(city === "la" ? "Los Angeles" : "New York");
+  if (profile.companions === "solo") pills.push("Solo outing");
+  if (profile.companions === "date") pills.push("Date night");
+  if (profile.companions === "family") pills.push("Family / kids");
+  if (profile.companions === "group") pills.push("Group");
+  if (profile.budget === "low") pills.push("Budget-aware");
+  if (profile.mood === "low") pills.push("Needs a mood lift");
+  if (profile.genre === "Musicals") pills.push("Musicals");
+  if (profile.genre === "Plays") pills.push("Plays");
+  if (profile.genre === "Dance") pills.push("Dance");
+  if (profile.wants.includes("relaxing")) pills.push("Relaxing");
+  if (profile.wants.includes("funny")) pills.push("Funny");
+  if (profile.wants.includes("spectacle")) pills.push("Big spectacle");
+  if (profile.wants.includes("classic")) pills.push("Classic");
+  if (profile.wants.includes("new")) pills.push("New work");
+  if (profile.wants.includes("romantic")) pills.push("Romantic vibe");
+  return pills;
+}
+
+function assistantGreetingMessage() {
+  return {
+    id: crypto.randomUUID(),
+    role: "assistant",
+    text:
+      "Tell me your city, who you're going with, your mood, budget, and what kind of show you want. I can recommend from this guide and, if you add an OpenAI API key, answer in a more natural concierge style.",
+    recommendations: []
+  };
+}
+
+function assistantTypingMessage() {
+  return {
+    id: "assistant-typing",
+    role: "assistant",
+    typing: true
+  };
+}
+
+function openRecommendedShow(city, showId) {
+  state.selectedCity = city;
+  state.selectedId = showId;
+  state.activeCategory = "All";
+  state.search = "";
+  document.getElementById("search-input").value = "";
+  renderCityShell();
+  renderStats();
+  applyFilters();
+  const show = showCatalog[city].find((item) => item.id === showId);
+  renderDetail(show || null);
+  window.scrollTo({ top: document.getElementById("city-bar").offsetTop - 12, behavior: "smooth" });
+}
+
+function currentAssistantMessages() {
+  return state.assistantPending
+    ? [...state.assistantMessages, assistantTypingMessage()]
+    : state.assistantMessages;
+}
+
+function recommendationHighlights(show, reason) {
+  const highlights = [];
+
+  if (typeof show.regularPrice === "number") {
+    highlights.push(`Starting around ${formatMoney(show.regularPrice)}.`);
+  }
+
+  if (show.runtime) {
+    highlights.push(`Runtime: ${show.runtime}.`);
+  }
+
+  if (show.ageGuidance) {
+    highlights.push(show.ageGuidance);
+  }
+
+  return highlights.slice(0, 3);
+}
+
+function recommendationStats(show) {
+  return [
+    typeof show.regularPrice === "number" ? `From ${formatMoney(show.regularPrice)}` : "Price TBA",
+    show.customerRating ? `${show.customerRating}/5 audience` : "Editorially curated",
+    `Popularity ${show.popularityScore.toFixed(1)}/10`,
+    show.runtime
+  ].filter(Boolean);
+}
+
+function recommendationCardMarkup(show, reason, index, city) {
+  const highlights = recommendationHighlights(show, reason);
+  const priceLabel = typeof show.regularPrice === "number" ? formatMoney(show.regularPrice) : "Price TBA";
+
+  return `
+    <article class="assistant-rec-card">
+      <div class="assistant-rec-headline">
+        <span class="assistant-rank">#${index + 1}</span>
+        <div>
+          <h3>${escapeHtml(show.title)}</h3>
+          <p class="muted">${escapeHtml(show.scene)} • ${escapeHtml(show.venue)}</p>
+        </div>
+      </div>
+      <p class="assistant-rec-summary">${escapeHtml(show.description)}</p>
+      <p class="assistant-rec-why"><strong>Why this fits you:</strong> ${escapeHtml(reason || show.description)}</p>
+      ${
+        highlights.length
+          ? `<ul class="assistant-rec-highlights">
+              ${highlights.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+            </ul>`
+          : ""
+      }
+      <p class="assistant-rec-price"><strong>Price:</strong> ${escapeHtml(priceLabel)}</p>
+      <div class="assistant-message-actions">
+        <button class="link-btn secondary assistant-open-btn" type="button" data-city="${city}" data-show-id="${show.id}">
+          Open in guide
+        </button>
+        <a class="link-btn primary" href="${show.buyLink}" target="_blank" rel="noreferrer">Ticket page</a>
+      </div>
+    </article>
+  `;
+}
+
+function shouldStickThreadToBottom(thread) {
+  const threshold = 36;
+  return thread.scrollHeight - thread.scrollTop - thread.clientHeight <= threshold;
+}
+
+function renderAssistantThread() {
+  const thread = document.getElementById("assistant-thread");
+  const city = state.selectedCity || "nyc";
+  const stickToBottom = shouldStickThreadToBottom(thread);
+
+  thread.innerHTML = currentAssistantMessages()
+    .map((message) => {
+      if (message.typing) {
+        return `
+          <div class="assistant-message assistant-bot">
+            <div class="assistant-message-bubble">
+              <div class="assistant-message-head">
+                <span class="assistant-author">Assistant</span>
+              </div>
+              <div class="assistant-typing" aria-label="Assistant is typing">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="assistant-message assistant-${message.role === "user" ? "user" : "bot"}">
+          <div class="assistant-message-bubble">
+            <div class="assistant-message-head">
+              <span class="assistant-author">${message.role === "user" ? "You" : "Assistant"}</span>
+            </div>
+            <div class="assistant-message-text">${message.text
+              .split("\n")
+              .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+              .join("")}</div>
+            ${
+              message.recommendations && message.recommendations.length
+                ? message.recommendations
+                    .map((item, index) =>
+                      recommendationCardMarkup(item.show, item.reason, index, item.city || city)
+                    )
+                    .join("")
+                : ""
+            }
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+
+  thread.querySelectorAll(".assistant-open-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+      openRecommendedShow(button.dataset.city, button.dataset.showId);
+    });
+  });
+
+  if (stickToBottom) {
+    requestAnimationFrame(() => {
+      thread.scrollTop = thread.scrollHeight;
+    });
+  }
+}
+
+function pushAssistantMessage(message) {
+  state.assistantMessages.push({
+    id: crypto.randomUUID(),
+    recommendations: [],
+    ...message
+  });
+  renderAssistantThread();
+}
+
+function syncAssistantStatus() {
+  const status = document.getElementById("assistant-ai-status");
+  if (state.assistantServerReady) {
+    status.textContent = "AI concierge is connected on the server and will answer with the smarter version by default.";
+    return;
+  }
+
+  status.textContent =
+    "Server-side OpenAI is not configured yet. The assistant will temporarily fall back to the local recommendation engine.";
+}
+
+function clampAssistantPosition(position) {
+  const drawer = document.getElementById("assistant-drawer");
+  const launcher = document.getElementById("assistant-launcher");
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
+  const widgetWidth = Math.max(drawer.offsetWidth || 420, launcher.offsetWidth || 280);
+  const launcherHeight = launcher.offsetHeight || 76;
+  const minVisible = 72;
+
+  return {
+    left: Math.min(
+      Math.max(position.left, -widgetWidth + minVisible),
+      viewportWidth - minVisible
+    ),
+    top: Math.min(
+      Math.max(position.top, 0),
+      viewportHeight - Math.min(launcherHeight, minVisible)
+    )
+  };
+}
+
+function applyAssistantPosition() {
+  const widget = document.getElementById("assistant-widget");
+
+  if (!state.assistantPosition) {
+    widget.style.removeProperty("left");
+    widget.style.removeProperty("top");
+    widget.style.removeProperty("right");
+    widget.style.removeProperty("bottom");
+    return;
+  }
+
+  state.assistantPosition = clampAssistantPosition(state.assistantPosition);
+  widget.style.left = `${state.assistantPosition.left}px`;
+  widget.style.top = `${state.assistantPosition.top}px`;
+  widget.style.right = "auto";
+  widget.style.bottom = "auto";
+}
+
+function persistAssistantPosition() {
+  try {
+    if (!state.assistantPosition) return;
+    localStorage.setItem(assistantPositionStorageKey, JSON.stringify(state.assistantPosition));
+  } catch (error) {
+    // Ignore storage write failures.
+  }
+}
+
+function syncAssistantWidget() {
+  const widget = document.getElementById("assistant-widget");
+  const launcher = document.getElementById("assistant-launcher");
+  const drawer = document.getElementById("assistant-drawer");
+  const widgetRect = widget.getBoundingClientRect();
+
+  launcher.setAttribute("aria-expanded", String(state.assistantOpen));
+  drawer.dataset.open = String(state.assistantOpen);
+  widget.dataset.dragging = String(state.assistantDragging);
+  state.assistantPlacement = widgetRect.top > window.innerHeight / 2 ? "up" : "down";
+  widget.dataset.placement = state.assistantPlacement;
+  requestAnimationFrame(applyAssistantPosition);
+}
+
+function setAssistantOpen(isOpen) {
+  state.assistantOpen = isOpen;
+  syncAssistantWidget();
+}
+
+function loadAssistantPosition() {
+  try {
+    const saved = localStorage.getItem(assistantPositionStorageKey);
+    state.assistantPosition = saved ? JSON.parse(saved) : null;
+  } catch (error) {
+    state.assistantPosition = null;
+  }
+}
+
+function resetAssistantConversation() {
+  state.assistantMessages = [assistantGreetingMessage()];
+  state.assistantPending = false;
+  renderAssistantThread();
+}
+
+async function fetchAssistantStatus() {
+  try {
+    const response = await fetch("/api/assistant/status");
+    if (!response.ok) {
+      throw new Error(`Status failed with ${response.status}`);
+    }
+
+    const data = await response.json();
+    state.assistantServerReady = Boolean(data.ready);
+  } catch (error) {
+    state.assistantServerReady = false;
+  }
+
+  syncAssistantStatus();
+}
+
+function bindAssistantDragging() {
+  const widget = document.getElementById("assistant-widget");
+  const launcher = document.getElementById("assistant-launcher");
+  const drawerHead = document.querySelector(".assistant-drawer-head");
+  const dragHandles = [launcher, drawerHead].filter(Boolean);
+  let pointerIsDown = false;
+  let startX = 0;
+  let startY = 0;
+  let startLeft = 0;
+  let startTop = 0;
+  let suppressLauncherClick = false;
+
+  const onPointerMove = (event) => {
+    if (!pointerIsDown) return;
+
+    const deltaX = event.clientX - startX;
+    const deltaY = event.clientY - startY;
+
+    if (!state.assistantDragging && Math.hypot(deltaX, deltaY) > 8) {
+      state.assistantDragging = true;
+      syncAssistantWidget();
+    }
+
+    if (!state.assistantDragging) return;
+
+    state.assistantPosition = clampAssistantPosition({
+      left: startLeft + deltaX,
+      top: startTop + deltaY
+    });
+    applyAssistantPosition();
+  };
+
+  const onPointerUp = () => {
+    pointerIsDown = false;
+
+    if (state.assistantDragging) {
+      suppressLauncherClick = true;
+      state.assistantDragging = false;
+      syncAssistantWidget();
+      persistAssistantPosition();
+    }
+
+    window.removeEventListener("pointermove", onPointerMove);
+    window.removeEventListener("pointerup", onPointerUp);
+  };
+
+  dragHandles.forEach((handle) => {
+    handle.addEventListener("pointerdown", (event) => {
+      if (handle !== launcher && event.target.closest("button")) return;
+
+      const rect = widget.getBoundingClientRect();
+      pointerIsDown = true;
+      state.assistantPosition = {
+        left: rect.left,
+        top: rect.top
+      };
+      startX = event.clientX;
+      startY = event.clientY;
+      startLeft = rect.left;
+      startTop = rect.top;
+      handle.setPointerCapture?.(event.pointerId);
+      window.addEventListener("pointermove", onPointerMove);
+      window.addEventListener("pointerup", onPointerUp);
+    });
+  });
+
+  launcher.addEventListener("click", (event) => {
+    if (suppressLauncherClick) {
+      suppressLauncherClick = false;
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
+    setAssistantOpen(!state.assistantOpen);
+  });
+}
+
+function buildLocalAssistantReply(result) {
+  const cityLabel = result.city === "la" ? "Los Angeles" : "New York";
+  const pills = profilePills(result.parsed, result.city);
+  const picks = result.recommendations.map(({ show, reasons }) => ({
+    show,
+    city: result.city,
+    reason: reasons[0] || show.description
+  }));
+  const summary = [
+    `I read this as ${cityLabel}${pills.length ? `, with signals like ${pills.join(", ")}` : ""}.`,
+    "I used the guide's current show data, price points, and fit signals to pick the best matches."
+  ].join("\n");
+
+  return {
+    text: summary,
+    recommendations: picks
+  };
+}
+
+function buildAiPrompt(query, result) {
+  const cityLabel = result.city === "la" ? "Los Angeles" : "New York";
+  const conversation = state.assistantMessages
+    .slice(-6)
+    .map((message) => `${message.role === "user" ? "User" : "Assistant"}: ${message.text}`)
+    .join("\n");
+
+  const candidateBlock = result.recommendations
+    .slice(0, 3)
+    .map(
+      ({ show, reasons }, index) =>
+        `${index + 1}. ${show.id} | ${show.title} | ${show.type} | ${show.scene} | from ${formatRegularPrice(
+          show.regularPrice
+        )} | ${show.description} | local reasons: ${reasons.join(" ; ")}`
+    )
+    .join("\n");
+
+  return `
+You are a warm, concise theater recommendation concierge for a site called Theater Master.
+Use only the show candidates provided below. Do not invent shows.
+Write a short, natural recommendation reply in plain English.
+Then output a JSON object only, with this exact shape:
+{
+  "reply": "2-4 short paragraphs",
+  "recommendations": [
+    {"id": "show-id", "reason": "one short reason"},
+    {"id": "show-id", "reason": "one short reason"},
+    {"id": "show-id", "reason": "one short reason"}
+  ]
+}
+
+Conversation so far:
+${conversation || "No prior conversation."}
+
+Latest user message:
+${query}
+
+City context:
+${cityLabel}
+
+Candidate shows:
+${candidateBlock}
+  `.trim();
+}
+
+function parseAiJson(text) {
+  const start = text.indexOf("{");
+  const end = text.lastIndexOf("}");
+  if (start === -1 || end === -1) {
+    throw new Error("No JSON object returned");
+  }
+
+  return JSON.parse(text.slice(start, end + 1));
+}
+
+async function fetchAiAssistantReply(query, result) {
+  const response = await fetch("/api/assistant", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      query,
+      prompt: buildAiPrompt(query, result),
+      city: result.city,
+      recommendations: result.recommendations.map(({ show, reasons }) => ({
+        id: show.id,
+        title: show.title,
+        reason: reasons[0] || show.description
+      }))
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error(`OpenAI request failed with ${response.status}`);
+  }
+
+  const data = await response.json();
+  const parsed = typeof data.reply === "string" ? data : parseAiJson(data.output_text || "");
+  const showMap = new Map(result.recommendations.map((entry) => [entry.show.id, entry.show]));
+  const recommendations = (parsed.recommendations || [])
+    .map((entry) => {
+      const show = showMap.get(entry.id);
+      if (!show) return null;
+      return {
+        show,
+        city: result.city,
+        reason: entry.reason || show.description
+      };
+    })
+    .filter(Boolean)
+    .slice(0, 3);
+
+  return {
+    text: parsed.reply || buildLocalAssistantReply(result).text,
+    recommendations: recommendations.length ? recommendations : buildLocalAssistantReply(result).recommendations
+  };
+}
+
+async function runAssistantQuery(rawQuery) {
+  const query = rawQuery.trim();
+  const input = document.getElementById("assistant-input");
+
+  setAssistantOpen(true);
+
+  if (!query) {
+    pushAssistantMessage({
+      role: "assistant",
+      text: 'Add a short sentence first, for example: "I\'m in New York, going solo, and want something relaxing."'
+    });
+    return;
+  }
+
+  pushAssistantMessage({ role: "user", text: query });
+  input.value = "";
+  state.assistantPending = true;
+  renderAssistantThread();
+
+  const parsed = parseAssistantQuery(query);
+  const result = recommendShows(parsed);
+  const fallbackReply = buildLocalAssistantReply(result);
+
+  try {
+    const reply = state.assistantServerReady
+      ? await fetchAiAssistantReply(query, result)
+      : fallbackReply;
+
+    pushAssistantMessage({
+      role: "assistant",
+      text: reply.text,
+      recommendations: reply.recommendations
+    });
+  } catch (error) {
+    pushAssistantMessage({
+      role: "assistant",
+      text:
+        "I couldn't reach OpenAI just now, so I switched back to the local recommendation engine for this reply.",
+      recommendations: fallbackReply.recommendations
+    });
+  } finally {
+    state.assistantPending = false;
+    renderAssistantThread();
+  }
+
+  const topPick = (result.recommendations[0] && result.recommendations[0].show) || null;
+  if (topPick) {
+    openRecommendedShow(result.city, topPick.id);
+  }
+}
 
 function productionStatus(show) {
+  const guideDate = currentGuideDate();
+  if (show.endDate && show.endDate < guideDate) return "Ended";
   return show.openingDate > guideDate ? "Upcoming" : "Current";
 }
 
@@ -1523,6 +2880,11 @@ function sceneClass(scene) {
 
 function statusClass(show) {
   return productionStatus(show) === "Upcoming" ? "status-upcoming" : "status-current";
+}
+
+function isVisibleOnGuide(show) {
+  const guideDate = currentGuideDate();
+  return !show.endDate || show.endDate >= guideDate;
 }
 
 function posterSrc(show) {
@@ -1635,7 +2997,8 @@ function renderSummary(filtered) {
 }
 
 function currentShows() {
-  return state.selectedCity === "la" ? laShows : nycShows;
+  const shows = state.selectedCity === "la" ? showCatalog.la : showCatalog.nyc;
+  return shows.filter(isVisibleOnGuide);
 }
 
 function renderList(filtered) {
@@ -1740,7 +3103,7 @@ function renderDetail(show) {
       <h4>Ticket Pricing</h4>
       <div class="detail-price-stack">
         <div class="deal-highlight">${typeof show.regularPrice === "number" ? `Regular tickets from ${formatMoney(show.regularPrice)}` : "Regular ticket pricing still to be announced"}</div>
-        <span class="meta-item">${typeof show.regularPrice === "number" ? "Observed from current official or primary ticket pages around March 17, 2026." : "This production is announced, but a stable public starting price was not surfaced in the official source used here."}</span>
+        <span class="meta-item">${typeof show.regularPrice === "number" ? `Observed from current official or primary ticket pages around ${formattedGuideDate()}.` : "This production is announced, but a stable public starting price was not surfaced in the official source used here."}</span>
       </div>
       <div class="price-grid">
         ${pricePill("Rush", show.rushPrice)}
@@ -1841,7 +3204,8 @@ function renderCityShell() {
     cityBar.hidden = true;
     browseControls.hidden = true;
     cityLayout.hidden = true;
-    document.getElementById("hero-eyebrow").textContent = "Current Stage Guide • Updated March 17, 2026";
+    document.getElementById("hero-eyebrow").textContent = `Current Stage Guide • Updated ${formattedGuideDate()}`;
+    document.getElementById("source-note-date").textContent = formattedGuideDate();
     return;
   }
 
@@ -1851,8 +3215,9 @@ function renderCityShell() {
   browseControls.hidden = false;
   cityLayout.hidden = false;
   document.getElementById("current-city-label").textContent = meta.label;
-  document.getElementById("hero-eyebrow").textContent = meta.eyebrow;
+  document.getElementById("hero-eyebrow").textContent = `${meta.eyebrowPrefix} • Updated ${formattedGuideDate()}`;
   document.getElementById("city-section-title").textContent = meta.sectionTitle;
+  document.getElementById("source-note-date").textContent = formattedGuideDate();
   syncDesktopPaneHeight();
 }
 
@@ -1893,10 +3258,53 @@ function bindControls() {
     state.sortBy = event.target.value;
     applyFilters();
   });
+
+  document.getElementById("assistant-submit").addEventListener("click", () => {
+    runAssistantQuery(document.getElementById("assistant-input").value);
+  });
+
+  document.getElementById("assistant-fill-example").addEventListener("click", () => {
+    const example = "我在纽约，今天一个人，心情不太好，想要看放松心情的剧目。";
+    document.getElementById("assistant-input").value = example;
+    runAssistantQuery(example);
+  });
+
+  document.getElementById("assistant-clear-chat").addEventListener("click", () => {
+    resetAssistantConversation();
+  });
+
+  document.querySelectorAll(".example-chip").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.getElementById("assistant-input").value = button.textContent.trim();
+      runAssistantQuery(button.textContent);
+    });
+  });
+
+  document.getElementById("assistant-input").addEventListener("keydown", (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
+      runAssistantQuery(event.target.value);
+    }
+  });
+
+  document.getElementById("assistant-close").addEventListener("click", () => {
+    setAssistantOpen(false);
+  });
+}
+
+function initializeAssistant() {
+  loadAssistantPosition();
+  resetAssistantConversation();
+  syncAssistantWidget();
+  fetchAssistantStatus();
+  bindAssistantDragging();
 }
 
 renderCityShell();
 renderFilters();
 bindControls();
+syncAssistantWidget();
+initializeAssistant();
+loadOfficialSync();
 window.addEventListener("resize", syncDesktopPaneHeight);
+window.addEventListener("resize", syncAssistantWidget);
 window.addEventListener("scroll", syncDesktopPaneHeight, { passive: true });
