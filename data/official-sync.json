@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T04:01:37+00:00",
+  "generatedAt": "2026-03-19T17:42:41+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -21,9 +21,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": 45.0,
-          "runtime": "2 hours",
-          "ageGuidance": "Recommended for ages 13+",
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "officialSiteLabel": "Official event page",
