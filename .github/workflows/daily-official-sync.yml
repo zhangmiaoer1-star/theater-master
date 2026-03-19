@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Rebase onto latest main before refresh
+        run: git pull --rebase origin main
+
       - name: Refresh official sync data
         run: python scripts/refresh_theater_data.py
 
@@ -33,5 +36,11 @@ jobs:
           git add data/official-sync.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh official sync data"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git push origin HEAD:main || (
+            git pull --rebase origin main &&
+            python scripts/refresh_theater_data.py &&
+            git add data/official-sync.json &&
+            git diff --cached --quiet && exit 0
+            git commit --amend --no-edit &&
+            git push origin HEAD:main
+          )
