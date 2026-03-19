@@ -6,7 +6,7 @@
     <title>Theater Master</title>
     <meta
       name="description"
-      content="A New York theater guide covering Broadway, Off-Broadway, local theater and dance, with pricing, official sites, and current productions."
+      content="A city-based theater guide covering current and upcoming productions, official links, pricing, and practical show details."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -47,14 +47,16 @@
           </div>
           <div class="city-grid">
             <button class="city-card city-card-nyc" id="choose-nyc" type="button">
-              <span class="city-kicker">East Coast Hub</span>
+              <span class="city-kicker">United States</span>
               <strong>New York</strong>
-              <span>Broadway, Off-Broadway, local theater, immersive work, and dance.</span>
             </button>
             <button class="city-card city-card-la" id="choose-la" type="button">
-              <span class="city-kicker">West Coast Hub</span>
+              <span class="city-kicker">United States</span>
               <strong>Los Angeles</strong>
-              <span>Touring musicals, major regional theaters, and current local productions.</span>
+            </button>
+            <button class="city-card city-card-shanghai" id="choose-shanghai" type="button">
+              <span class="city-kicker">China Mainland</span>
+              <strong>Shanghai</strong>
             </button>
           </div>
         </section>
@@ -142,37 +144,13 @@
         <div class="assistant-drawer-head">
           <div>
             <p class="eyebrow">Smart Recommendation Assistant</p>
-            <h2 id="assistant-title">Tell me what kind of night you want</h2>
+            <h2 id="assistant-title">Find your next show</h2>
           </div>
-          <button class="assistant-close" id="assistant-close" type="button" aria-label="Close assistant">
-            ×
-          </button>
         </div>
 
         <p class="assistant-subtitle">
-          Chat with a theater concierge. It will use your current guide data and, if configured,
-          OpenAI to write more natural recommendations.
+          Describe your night in one sentence and get a tailored theater pick.
         </p>
-
-        <div class="assistant-config">
-          <p class="assistant-label">AI Status</p>
-          <p id="assistant-ai-status" class="assistant-config-note">
-            Checking server-side AI connection...
-          </p>
-          <p class="assistant-drag-note">Tip: drag the bubble or the chat header to move it.</p>
-        </div>
-
-        <div class="example-row" aria-label="Prompt examples">
-          <button class="example-chip" type="button">
-            我在纽约，今天一个人，心情不太好，想看放松心情的剧目
-          </button>
-          <button class="example-chip" type="button">
-            We're in LA with two kids and want a big, fun musical under $100
-          </button>
-          <button class="example-chip" type="button">
-            想在纽约看一部约会氛围比较好的经典音乐剧
-          </button>
-        </div>
 
         <div id="assistant-thread" class="assistant-thread" aria-live="polite"></div>
 
@@ -188,15 +166,16 @@
             <button class="link-btn primary" id="assistant-submit" type="button">
               Send
             </button>
-            <button class="link-btn secondary" id="assistant-fill-example" type="button">
-              Use sample prompt
-            </button>
             <button class="link-btn secondary" id="assistant-clear-chat" type="button">
               Clear chat
             </button>
           </div>
         </div>
       </section>
+
+      <button class="assistant-close" id="assistant-close" type="button" aria-label="Close assistant">
+        ×
+      </button>
     </div>
 
     <script src="./app.js"></script>

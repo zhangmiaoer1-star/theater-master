@@ -1862,6 +1862,632 @@ const laShows = [
   }
 ];
 
+const shanghaiShows = [
+  {
+    id: "sh-lion-boy",
+    title: "音乐剧《雄狮少年》",
+    type: "Musicals",
+    scene: "上海文化广场",
+    venue: "上海文化广场 主剧场",
+    address: "上海市黄浦区永嘉路36号",
+    openingDate: "2026-04-02",
+    endDate: "2026-04-05",
+    description: "上海文化广场官方近期演出列表中的重点音乐剧项目，适合作为上海页面的音乐剧核心条目。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开列表未清晰展示演出时长。",
+    ageGuidance: "官方公开列表未清晰展示年龄建议。",
+    officialSiteLabel: "上海文化广场官方演出页",
+    officialSite: "https://www.shcstheatre.com/",
+    buyLink: "https://www.shcstheatre.com/",
+    customerRating: null,
+    popularityScore: 8.3,
+    popularityReason:
+      "作为上海文化广场当前公开排期中的主打音乐剧，它是最适合放进上海首版城市页的官方音乐剧项目之一。",
+    sources: ["上海文化广场"]
+  },
+  {
+    id: "sh-don-juan",
+    title: "法语原版音乐剧《唐璜》",
+    type: "Musicals",
+    scene: "上海文化广场",
+    venue: "上海文化广场 主剧场",
+    address: "上海市黄浦区永嘉路36号",
+    openingDate: "2026-04-10",
+    endDate: "2026-04-19",
+    description: "上海文化广场官方当前公开排期中的法语原版音乐剧项目，能体现上海页面的国际音乐剧特征。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开列表未清晰展示演出时长。",
+    ageGuidance: "官方公开列表未清晰展示年龄建议。",
+    officialSiteLabel: "上海文化广场官方演出页",
+    officialSite: "https://www.shcstheatre.com/",
+    buyLink: "https://www.shcstheatre.com/",
+    customerRating: null,
+    popularityScore: 8.5,
+    popularityReason:
+      "国际原版音乐剧在上海文化广场具备较强关注度，是上海页面里非常有代表性的 upcoming 项目。",
+    sources: ["上海文化广场"]
+  },
+  {
+    id: "sh-musical-stars-gala",
+    title: "《影·曜》德语音乐剧明星音乐会",
+    type: "Musicals",
+    scene: "上海文化广场",
+    venue: "上海文化广场 主剧场",
+    address: "上海市黄浦区永嘉路36号",
+    openingDate: "2026-04-29",
+    endDate: "2026-05-01",
+    description: "上海文化广场官方近期排期中的音乐剧主题明星音乐会，适合作为上海页里偏音乐剧演唱会形态的补充项目。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开列表未清晰展示演出时长。",
+    ageGuidance: "官方公开列表未清晰展示年龄建议。",
+    officialSiteLabel: "上海文化广场官方演出页",
+    officialSite: "https://www.shcstheatre.com/",
+    buyLink: "https://www.shcstheatre.com/",
+    customerRating: null,
+    popularityScore: 7.9,
+    popularityReason:
+      "它不是完整 book musical，但对于上海本地音乐剧观众来说，德语音乐剧明星音乐会具有很强的圈层吸引力。",
+    sources: ["上海文化广场"]
+  },
+  {
+    id: "sh-maya-hakvoort-concert",
+    title: "音乐剧明星玛雅·哈克福特音乐会",
+    type: "Musicals",
+    scene: "上海文化广场",
+    venue: "上海文化广场 主剧场",
+    address: "上海市黄浦区永嘉路36号",
+    openingDate: "2026-05-08",
+    endDate: "2026-05-09",
+    description: "上海文化广场官方公开排期里的音乐剧明星专场音乐会，能补足上海页里国际音乐剧演员个人专场这一类内容。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开列表未清晰展示演出时长。",
+    ageGuidance: "官方公开列表未清晰展示年龄建议。",
+    officialSiteLabel: "上海文化广场官方演出页",
+    officialSite: "https://www.shcstheatre.com/",
+    buyLink: "https://www.shcstheatre.com/",
+    customerRating: null,
+    popularityScore: 7.8,
+    popularityReason:
+      "这类音乐剧演员个人专场在上海演出市场有明确受众，适合纳入上海页的 upcoming 音乐剧类条目。",
+    sources: ["上海文化广场"]
+  },
+  {
+    id: "sh-we-become-her",
+    title: "话剧《我们成为的她》",
+    type: "Plays",
+    scene: "上海话剧艺术中心",
+    venue: "上海话剧艺术中心 · 艺术剧院",
+    address: "上海市静安区安福路288号",
+    openingDate: "2026-07-14",
+    endDate: "2026-07-26",
+    description: "上海话剧艺术中心 2026 年度最明确、也最受关注的新作之一，由梁咏琪主演，属于上话今年的重要 upcoming 项目。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开报道暂未明确披露单场时长。",
+    ageGuidance: "官方公开报道暂未明确披露年龄建议。",
+    officialSiteLabel: "上话相关新闻报道",
+    officialSite: "https://www.jpchinapress.com/static/content/WH/2026-03-06/1479447376254084316.html",
+    buyLink: "https://www.jpchinapress.com/static/content/WH/2026-03-06/1479447376254084316.html",
+    customerRating: null,
+    popularityScore: 8.7,
+    popularityReason:
+      "它是上话 2026 年最具传播度的新作之一，既有明星演员加持，也有明确首轮演出时间，非常适合补进上海页。",
+    sources: ["上观新闻转引", "上海话剧艺术中心演出季信息"]
+  },
+  {
+    id: "sh-suti-chunxiao",
+    title: "话剧《苏堤春晓》",
+    type: "Plays",
+    scene: "黄浦文化中心",
+    venue: "黄浦文化中心 · 大上海剧场",
+    address: "上海市黄浦区中华路980号",
+    openingDate: "2026-04-10",
+    endDate: "2026-04-12",
+    description: "2026 国话·上海演出季率先官宣并已开票的重磅话剧项目之一，是上海春季戏剧档期里非常显眼的文本型大戏。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开报道暂未明确披露单场时长。",
+    ageGuidance: "官方公开报道暂未明确披露年龄建议。",
+    officialSiteLabel: "上海演出季报道",
+    officialSite: "https://m.thepaper.cn/newsDetail_forward_32704442",
+    buyLink: "https://whlyj.sh.gov.cn/gqfc/20260305/6da1cce71b514b0297a1a67ca3c6f535.html",
+    customerRating: null,
+    popularityScore: 8.8,
+    popularityReason:
+      "作为国话上海演出季的开场重点项目，它兼具名家主演与上海市场口碑，是上海话剧板块非常值得放进首页的项目。",
+    sources: ["澎湃新闻", "上海市文化和旅游局"]
+  },
+  {
+    id: "sh-kangzhan",
+    title: "文献话剧《抗战中的文艺》",
+    type: "Plays",
+    scene: "黄浦文化中心",
+    venue: "黄浦文化中心 · 大上海剧场",
+    address: "上海市黄浦区中华路980号",
+    openingDate: "2026-04-17",
+    endDate: "2026-04-18",
+    description: "2026 国话·上海演出季已率先开票的另一部重点话剧，以抗战年代中国文艺工作者的现实处境为核心。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开报道暂未明确披露单场时长。",
+    ageGuidance: "官方公开报道暂未明确披露年龄建议。",
+    officialSiteLabel: "国话上海演出季报道",
+    officialSite: "https://m.thepaper.cn/newsDetail_forward_32704442",
+    buyLink: "https://www.sh.chinanews.com.cn/yule/2026-03-04/144939.shtml",
+    customerRating: null,
+    popularityScore: 8.5,
+    popularityReason:
+      "它与《苏堤春晓》一起构成了国话上海演出季最明确、最适合城市页展示的话剧入口。",
+    sources: ["澎湃新闻", "中新社上海"]
+  },
+  {
+    id: "sh-kuangbiao",
+    title: "音乐剧《狂飙》",
+    type: "Musicals",
+    scene: "上海大剧院",
+    venue: "上海大剧院 大剧场",
+    address: "上海市黄浦区人民大道300号",
+    openingDate: "2026-04-08",
+    endDate: "2026-04-12",
+    description: "2026 年 4 月上海大剧院档期中最醒目的中文音乐剧项目之一，属于上海春季大型音乐剧排期的代表作。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "排期参考页未稳定展示演出时长。",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "演出排期参考页",
+    officialSite: "https://y.saoju.net/yyj/schedule/2146/",
+    buyLink: "https://y.saoju.net/yyj/schedule/2146/",
+    customerRating: null,
+    popularityScore: 8.7,
+    popularityReason:
+      "它兼具热门 IP 和大剧院排期热度，是上海这一阶段最值得补进音乐剧主列表的项目之一。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-dangerous-game",
+    title: "音乐剧《危险游戏》",
+    type: "Musicals",
+    scene: "上海共舞台",
+    venue: "上海共舞台",
+    address: "上海市黄浦区延安东路433号",
+    openingDate: "2026-03-03",
+    endDate: "2026-03-29",
+    description: "2026 十周年演出季中上海当前正在上演的成熟悬疑双人音乐剧，是眼下上海页里最明确的一部 current 项目之一。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "公开排期页未稳定展示时长。",
+    ageGuidance: "悬疑向作品，低龄观众建议谨慎选择。",
+    officialSiteLabel: "单剧排期页",
+    officialSite: "https://y.saoju.net/yyj/tour/706/",
+    buyLink: "https://y.saoju.net/yyj/tour/706/",
+    customerRating: null,
+    popularityScore: 8.7,
+    popularityReason:
+      "它有完整的 2026 年 3 月上海排期，是目前比单纯驻演汇总更明确、更适合城市页展示的一部 current 悬疑音乐剧。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-pianist",
+    title: "音乐剧《海上钢琴师》",
+    type: "Musicals",
+    scene: "上海西岸大剧院",
+    venue: "上海西岸大剧院 大剧场",
+    address: "上海市徐汇区龙腾大道2121号",
+    openingDate: "2026-04-10",
+    endDate: "2026-04-12",
+    description: "上海西岸大剧院 4 月当前可核实到的重点音乐剧项目之一，属于经典改编型大剧场作品。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "排期参考页未稳定展示演出时长。",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "演出排期参考页",
+    officialSite: "https://y.saoju.net/yyj/theatre/397/",
+    buyLink: "https://y.saoju.net/yyj/theatre/397/",
+    customerRating: null,
+    popularityScore: 8.6,
+    popularityReason:
+      "经典题材、成熟市场口碑和明确的上海档期，让它成为上海大馆音乐剧里很稳的一项补充。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-baima",
+    title: "音乐剧《倏忽白马》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间88号·FIREHOUSE",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2026-03-21",
+    description: "中文音乐剧演出信息首页新增演出里最明确的上海新作之一，适合作为上海页里的 upcoming 原创音乐剧补充。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "新增演出公开摘要暂未稳定展示时长。",
+    ageGuidance: "新增演出公开摘要暂未稳定展示年龄建议。",
+    officialSiteLabel: "新增演出汇总页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "它是 2026 年 3 月中文音乐剧新增演出里直接落在上海的一部原创新作，很适合放到 upcoming 列表中。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-last-man",
+    title: "音乐剧《The Last Man 幸存者》",
+    type: "Musicals",
+    scene: "十二楼音乐剧之城",
+    venue: "十二楼音乐剧之城 -6号剧场[B-103防空洞]",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2026-04-03",
+    endDate: "2026-04-26",
+    description: "中文音乐剧演出信息首页新增演出中明确列出的上海项目之一，代表了环人广沉浸式/空间型音乐剧的新供给。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "新增演出公开摘要暂未稳定展示时长。",
+    ageGuidance: "新增演出公开摘要暂未稳定展示年龄建议。",
+    officialSiteLabel: "新增演出汇总页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 8.0,
+    popularityReason:
+      "它明确出现在 2026 年上海新增演出列表里，也很能体现上海近年“空间型小剧场音乐剧”的发展方向。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-apollonia",
+    title: "音乐剧《阿波罗尼亚》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间1号·一台好戏小剧场",
+    address: "上海市黄浦区汉口路650号亚洲大厦",
+    openingDate: "2020-08-28",
+    endDate: "2026-04-19",
+    description: "亚洲大厦小剧场生态里最有代表性的驻演音乐剧之一，也是很多观众进入上海小剧场音乐剧世界的第一站。",
+    regularPrice: 200,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "110分钟（以现场为准）",
+    ageGuidance: "票务与排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "驻演排期参考页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 9.1,
+    popularityReason:
+      "人民网对亚洲大厦小剧场群的报道和驻演排期都表明，《阿波罗尼亚》仍然是上海小剧场音乐剧最具代表性的长跑项目之一。",
+    sources: ["上海本地宝（转引大麦）", "人民网", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-santa-lucia",
+    title: "音乐剧《桑塔露琪亚》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间6号·一台好戏小剧场",
+    address: "上海市黄浦区汉口路650号亚洲大厦",
+    openingDate: "2021-04-30",
+    endDate: "2026-04-19",
+    description: "《阿波罗尼亚》前传式的小剧场驻演项目，是亚洲大厦目前仍然非常活跃的一部环境式音乐剧。",
+    regularPrice: 299,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "票务平台公开页未稳定展示时长，常见票档从 299 元起。",
+    ageGuidance: "票务与排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "驻演排期参考页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 8.8,
+    popularityReason:
+      "它长期和《阿波罗尼亚》一起构成亚洲大厦最有辨识度的小剧场音乐剧入口，适合放在上海页核心列表中。",
+    sources: ["票务优惠信息", "人民网", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-time-agent",
+    title: "音乐剧《时光代理人》",
+    type: "Musicals",
+    scene: "环人广小剧场",
+    venue: "时光剧场",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2023-11-11",
+    endDate: "2026-04-06",
+    description: "上海当前小剧场驻演列表中场次非常稳定的一部热门音乐剧，兼具二次元受众和驻演体量优势。",
+    regularPrice: 280,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "约120分钟，含15分钟中场休息。",
+    ageGuidance: "公开票务摘要未给出明确年龄线，低龄观众建议谨慎选择。",
+    officialSiteLabel: "驻演排期参考页",
+    officialSite: "https://y.saoju.net/yyj/year/2026/city",
+    buyLink: "https://y.saoju.net/yyj/year/2026/city",
+    customerRating: null,
+    popularityScore: 8.6,
+    popularityReason:
+      "它在 2026 年上海驻演音乐剧统计里仍然保持较高场次，是环人广小剧场当下很典型的持续热卖项目。",
+    sources: ["活动网（转引票务平台）", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-xinji-road",
+    title: "音乐剧《辛吉路的画材店》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间2号·好好有戏剧场",
+    address: "上海市黄浦区汉口路650号亚洲大厦",
+    openingDate: "2023-02-25",
+    endDate: "2026-04-06",
+    description: "亚洲大厦当前驻演列表中依然活跃的一部原创小剧场音乐剧，适合代表上海的“小而密”的音乐剧供给。",
+    regularPrice: 199,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "约90分钟（以现场为准）",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "驻演排期参考页",
+    officialSite: "https://y.saoju.net/yyj/year/2026/city",
+    buyLink: "https://yanchu.juyoufuli.com/app/performances/29903",
+    customerRating: null,
+    popularityScore: 8.3,
+    popularityReason:
+      "长期驻演和稳定排期让它成为上海小剧场音乐剧生态里非常典型的一部作品。",
+    sources: ["上海本地宝（转引大麦）", "聚有福利演出页", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-0528",
+    title: "音乐剧《#0528》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间28号·好好有戏小剧场",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2023-11-18",
+    endDate: "2026-04-06",
+    description: "上海驻演小剧场音乐剧里场次和认知度都很高的一部作品，在 2026 年驻演统计里仍然保持活跃。",
+    regularPrice: 299,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "约120分钟（以现场为准）",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "驻演排期参考页",
+    officialSite: "https://y.saoju.net/yyj/year/2026/city",
+    buyLink: "https://yanchu.juyoufuli.com/app/performances/29969",
+    customerRating: null,
+    popularityScore: 8.4,
+    popularityReason:
+      "它在 2026 年上海驻演音乐剧统计里仍然场次靠前，适合用于呈现上海小剧场音乐剧的持续活力。",
+    sources: ["上海本地宝（转引大麦）", "聚有福利演出页", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-monster",
+    title: "音乐剧《怪物》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间18号·谜剧场",
+    address: "上海市黄浦区汉口路650号亚洲大厦及环人广剧场群",
+    openingDate: "2024-07-05",
+    endDate: "2026-05-05",
+    description: "上海驻演小剧场音乐剧中体量很大的长跑项目之一，兼具悬疑气质和持续驻演场次。",
+    regularPrice: 199,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "90分钟（以现场为准）",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "票务演出页",
+    officialSite: "https://yanchu.juyoufuli.com/performances/30015",
+    buyLink: "https://yanchu.juyoufuli.com/performances/30015",
+    customerRating: null,
+    popularityScore: 8.5,
+    popularityReason:
+      "它在上海驻演音乐剧统计里的场次非常高，是上海小剧场常驻项目中不能忽略的一部。",
+    sources: ["上海本地宝（转引大麦）", "中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-blood-doctor",
+    title: "音乐剧《嗜血博士》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间1023号·涵金小剧场",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2023-06-08",
+    endDate: "2026-05-05",
+    description: "2026 年上海驻场演出总表中仍然高频出现的一部小剧场悬疑音乐剧，适合补进上海 current 列表。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "驻演汇总页未稳定展示时长。",
+    ageGuidance: "悬疑题材作品，低龄观众建议谨慎选择。",
+    officialSiteLabel: "驻场演出汇总页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "它在 2026 年上海驻演汇总里仍保持较高场次，是上海小剧场悬疑音乐剧供给里很难忽略的一部。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-hedwig",
+    title: "音乐剧《HEDWIG海德薇》",
+    type: "Musicals",
+    scene: "北外滩友邦大剧院",
+    venue: "北外滩友邦大剧院",
+    address: "上海市虹口区东大名路889号",
+    openingDate: "2026-05-01",
+    endDate: "2026-05-08",
+    description: "y.saoju 上已明确列出 2026 年 5 月上海返场档期，是上海 upcoming 音乐剧里辨识度很高的一部。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "单剧排期页未稳定展示时长。",
+    ageGuidance: "成人向摇滚音乐剧，低龄观众不建议观看。",
+    officialSiteLabel: "单剧排期页",
+    officialSite: "https://y.saoju.net/yyj/schedule/1844/",
+    buyLink: "https://y.saoju.net/yyj/schedule/1844/",
+    customerRating: null,
+    popularityScore: 8.6,
+    popularityReason:
+      "《海德薇》在上海音乐剧观众中辨识度很高，5 月返场档期也让它成为 very strong upcoming choice。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-lizzie",
+    title: "音乐剧《LIZZIE丽兹》",
+    type: "Musicals",
+    scene: "亚洲大厦 · 星空间",
+    venue: "星空间11号·MOriginal Box",
+    address: "上海市黄浦区人民广场演艺大世界片区",
+    openingDate: "2026-03-19",
+    endDate: "2026-05-05",
+    description: "2026 年上海驻场演出总表里仍在持续上演的小剧场摇滚音乐剧项目，也是上海驻演音乐剧的代表作之一。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "单剧页与汇总页未稳定展示时长。",
+    ageGuidance: "摇滚向、成人题材，低龄观众建议谨慎选择。",
+    officialSiteLabel: "单剧排期页",
+    officialSite: "https://y.saoju.net/yyj/tour/74/",
+    buyLink: "https://y.saoju.net/yyj/tour/74/",
+    customerRating: null,
+    popularityScore: 8.4,
+    popularityReason:
+      "《LIZZIE》是上海小剧场摇滚音乐剧的重要代表作，在 2026 年上海驻演清单里依然保持活跃。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-benjamin-button",
+    title: "音乐剧《本杰明·巴顿奇事》",
+    type: "Musicals",
+    scene: "上海共舞台",
+    venue: "上海共舞台",
+    address: "上海市黄浦区延安东路433号",
+    openingDate: "2026-05-01",
+    endDate: "2026-05-10",
+    description: "上海 5 月已明确排期的一部重点音乐剧项目，属于今年春季后段比较值得关注的中大型作品。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "排期参考页未稳定展示演出时长。",
+    ageGuidance: "排期参考页未稳定展示年龄建议。",
+    officialSiteLabel: "演出排期参考页",
+    officialSite: "https://y.saoju.net/yyj/",
+    buyLink: "https://y.saoju.net/yyj/",
+    customerRating: null,
+    popularityScore: 8.4,
+    popularityReason:
+      "它已经在 5 月上海档期中形成较明确存在感，适合补进上海页的 upcoming 音乐剧列表。",
+    sources: ["中文音乐剧演出信息"]
+  },
+  {
+    id: "sh-li-qingzhao",
+    title: "舞剧《李清照》",
+    type: "Dance",
+    scene: "上海国际舞蹈中心",
+    venue: "上海国际舞蹈中心",
+    address: "上海市长宁区虹桥路1650号",
+    openingDate: "2026-03-20",
+    endDate: "2026-03-22",
+    description: "上海国际舞蹈中心十周年系列演出季中最先亮相的重点舞剧项目之一。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开报道未清晰展示演出时长。",
+    ageGuidance: "官方公开报道未清晰展示年龄建议。",
+    officialSiteLabel: "官方演出季报道",
+    officialSite: "https://www.shcn.gov.cn/col6991/20260209/1305335.html",
+    buyLink: "https://www.shcn.gov.cn/col6991/20260209/1305335.html",
+    customerRating: null,
+    popularityScore: 8.2,
+    popularityReason:
+      "它是上海国际舞蹈中心十周年演出季公开报道中最明确的近期舞剧项目之一。",
+    sources: ["上海国际舞蹈中心演出季报道"]
+  },
+  {
+    id: "sh-baihehua",
+    title: "芭蕾舞剧《百合花》",
+    type: "Dance",
+    scene: "上海国际舞蹈中心",
+    venue: "上海国际舞蹈中心",
+    address: "上海市长宁区虹桥路1650号",
+    openingDate: "2026-03-27",
+    endDate: "2026-03-29",
+    description: "上海国际舞蹈中心十周年系列演出季中的另一部重点舞剧项目，适合作为上海页面的舞蹈代表。",
+    regularPrice: null,
+    currency: "CNY",
+    rushPrice: null,
+    lotteryPrice: null,
+    standingPrice: null,
+    runtime: "官方公开报道未清晰展示演出时长。",
+    ageGuidance: "官方公开报道未清晰展示年龄建议。",
+    officialSiteLabel: "官方演出季报道",
+    officialSite: "https://www.shcn.gov.cn/col6991/20260209/1305335.html",
+    buyLink: "https://www.shcn.gov.cn/col6991/20260209/1305335.html",
+    customerRating: null,
+    popularityScore: 8.1,
+    popularityReason:
+      "它与《李清照》一起构成了上海国际舞蹈中心近期最清晰、最适合城市页展示的舞剧排期。",
+    sources: ["上海国际舞蹈中心演出季报道"]
+  }
+];
+
 const cityMeta = {
   nyc: {
     label: "New York",
@@ -1876,6 +2502,13 @@ const cityMeta = {
     sectionTitle: "Current Los Angeles productions",
     statNote: "current LA productions in this guide",
     categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
+  },
+  shanghai: {
+    label: "Shanghai",
+    eyebrowPrefix: "Current Shanghai Stage Guide",
+    sectionTitle: "Current and upcoming Shanghai productions",
+    statNote: "current and upcoming Shanghai productions in this guide",
+    categories: ["All", "Most Popular", "Newest", "Upcoming", "Musicals", "Plays", "Dance"]
   }
 };
 
@@ -1888,6 +2521,7 @@ const state = {
   assistantOpen: false,
   assistantPending: false,
   assistantMessages: [],
+  assistantUserProfile: null,
   assistantServerReady: false,
   assistantPosition: null,
   assistantDragging: false,
@@ -1906,7 +2540,8 @@ function currentCategories() {
 
 const showCatalog = {
   nyc: nycShows.map((show) => ({ ...show })),
-  la: laShows.map((show) => ({ ...show }))
+  la: laShows.map((show) => ({ ...show })),
+  shanghai: shanghaiShows.map((show) => ({ ...show }))
 };
 
 function normalizeShowKey(value) {
@@ -1931,7 +2566,7 @@ function mergeShowRecords(existing, incoming) {
 function applyOfficialSync(payload) {
   if (!payload || !payload.cities) return;
 
-  ["nyc", "la"].forEach((city) => {
+  ["nyc", "la", "shanghai"].forEach((city) => {
     const cityPayload = payload.cities[city];
     if (!cityPayload || !Array.isArray(cityPayload.upserts)) return;
 
@@ -1971,7 +2606,9 @@ async function loadOfficialSync() {
 }
 
 function cityTimeZone() {
-  return state.selectedCity === "la" ? "America/Los_Angeles" : "America/New_York";
+  if (state.selectedCity === "la") return "America/Los_Angeles";
+  if (state.selectedCity === "shanghai") return "Asia/Shanghai";
+  return "America/New_York";
 }
 
 function currentGuideDate() {
@@ -1995,54 +2632,104 @@ function formattedGuideDate() {
 }
 
 const assistantProfiles = {
-  hamilton: ["classic", "spectacle", "energetic"],
-  wicked: ["uplifting", "spectacle", "fantasy", "family"],
-  "lion-king": ["uplifting", "spectacle", "family", "visual"],
-  hadestown: ["intimate", "atmospheric", "romantic", "bittersweet"],
-  "maybe-happy-ending": ["healing", "warm", "intimate", "romantic"],
-  "death-becomes-her": ["funny", "camp", "spectacle", "light"],
-  "operation-mincemeat": ["funny", "energetic", "clever", "new"],
-  aladdin: ["family", "light", "spectacle", "visual"],
-  juliet: ["uplifting", "pop", "energetic", "romantic"],
-  "book-of-mormon": ["funny", "adult", "irreverent"],
-  "buena-vista-social-club": ["warm", "music-forward", "uplifting"],
-  chicago: ["classic", "sharp", "adult"],
-  "great-gatsby": ["romantic", "spectacle", "classic"],
-  mj: ["energetic", "dance-forward", "spectacle"],
-  "moulin-rouge": ["romantic", "spectacle", "date-night"],
-  six: ["energetic", "pop", "fun"],
-  outsiders: ["intense", "dramatic"],
-  "death-of-a-salesman": ["dramatic", "intense", "classic"],
-  "every-brilliant-thing": ["intimate", "healing", "thoughtful"],
-  "oh-mary": ["funny", "camp", "adult"],
-  "little-shop": ["funny", "dark", "cult"],
-  "spelling-bee": ["funny", "warm", "light"],
-  "play-that-goes-wrong": ["funny", "light", "easy"],
-  "friends-musical-parody": ["funny", "light", "nostalgic"],
-  "gazillion-bubble-show": ["visual", "family", "light", "relaxing"],
-  "drunk-shakespeare": ["funny", "adult", "immersive"],
-  "perfect-crime": ["dark", "thriller"],
-  antigone: ["dramatic", "intense"],
-  touch: ["intimate", "thoughtful"],
-  trash: ["experimental", "local"],
-  "ulster-american": ["funny", "sharp", "adult"],
-  "ice-queen": ["family", "light", "fantasy"],
-  "ailey-ii": ["dance", "expressive", "artful"],
-  "la-six": ["energetic", "pop", "fun"],
-  "la-beetlejuice": ["funny", "dark", "spectacle"],
-  "la-amadeus": ["classic", "dramatic"],
-  "la-dragon-mama": ["intimate", "warm", "thoughtful"],
-  "la-kims-convenience": ["warm", "funny", "healing"],
-  "la-here-lies-love": ["energetic", "immersive", "dance-forward"],
-  "la-spamalot": ["funny", "light", "classic"],
-  "la-tina": ["energetic", "uplifting", "music-forward"],
-  "la-mj": ["energetic", "dance-forward", "spectacle"],
-  "la-master-harold": ["dramatic", "intense"],
-  "la-sound-of-music": ["family", "classic", "uplifting"],
-  "la-mamma-mia": ["uplifting", "fun", "date-night"],
-  "la-hells-kitchen": ["energetic", "new", "music-forward"],
-  "la-phantom": ["classic", "romantic", "spectacle"],
-  "la-primary-trust": ["healing", "intimate", "thoughtful"]
+  hamilton: { moods: ["epic"], styles: ["classic", "spectacle"], audiences: ["tourist"], energy: "high" },
+  wicked: { moods: ["uplifting", "feel-good"], styles: ["spectacle", "fantasy"], audiences: ["family", "tourist"], energy: "medium" },
+  "lion-king": { moods: ["uplifting", "visual"], styles: ["spectacle"], audiences: ["family", "tourist"], energy: "medium" },
+  hadestown: { moods: ["romantic", "atmospheric"], styles: ["intimate", "artful"], audiences: ["date", "solo"], energy: "medium" },
+  "maybe-happy-ending": { moods: ["healing", "warm", "romantic"], styles: ["intimate"], audiences: ["solo", "date"], energy: "low" },
+  "death-becomes-her": { moods: ["funny", "camp"], styles: ["spectacle"], audiences: ["friends", "tourist"], energy: "high" },
+  "just-in-time": { moods: ["warm", "nostalgic"], styles: ["music-forward", "new"], audiences: ["date", "tourist"], energy: "medium" },
+  "operation-mincemeat": { moods: ["funny", "clever"], styles: ["new"], audiences: ["friends", "solo"], energy: "high" },
+  aladdin: { moods: ["light", "visual"], styles: ["spectacle"], audiences: ["family"], energy: "medium" },
+  juliet: { moods: ["uplifting", "romantic"], styles: ["pop"], audiences: ["date", "friends"], energy: "high" },
+  "book-of-mormon": { moods: ["funny"], styles: ["irreverent"], audiences: ["friends"], contentFlags: ["adult"], energy: "high" },
+  "buena-vista-social-club": { moods: ["warm", "uplifting"], styles: ["music-forward"], audiences: ["date", "solo"], energy: "medium" },
+  chicago: { moods: ["sharp"], styles: ["classic"], audiences: ["date"], contentFlags: ["adult"], energy: "medium" },
+  chess: { moods: ["intense", "romantic"], styles: ["classic", "dramatic"], audiences: ["date", "theater-lover"], energy: "medium" },
+  "great-gatsby": { moods: ["romantic"], styles: ["classic", "spectacle"], audiences: ["date", "tourist"], energy: "medium" },
+  mj: { moods: ["energetic"], styles: ["dance-forward", "spectacle"], audiences: ["friends", "tourist"], energy: "high" },
+  "moulin-rouge": { moods: ["romantic"], styles: ["spectacle"], audiences: ["date", "tourist"], energy: "high" },
+  ragtime: { moods: ["thoughtful", "intense"], styles: ["classic", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "medium" },
+  six: { moods: ["fun", "uplifting"], styles: ["pop"], audiences: ["friends"], energy: "high" },
+  outsiders: { moods: ["intense"], styles: ["dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "high" },
+  "death-of-a-salesman": { moods: ["intense"], styles: ["classic", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "dog-day-afternoon": { moods: ["intense"], styles: ["new", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "high" },
+  "every-brilliant-thing": { moods: ["healing", "thoughtful"], styles: ["intimate"], audiences: ["solo"], energy: "low" },
+  giant: { moods: ["intense", "thoughtful"], styles: ["dramatic", "new"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "harry-potter": { moods: ["visual", "fun"], styles: ["spectacle", "fantasy"], audiences: ["family", "tourist"], energy: "medium" },
+  "two-strangers": { moods: ["romantic", "warm"], styles: ["music-forward", "new"], audiences: ["date", "solo"], energy: "medium" },
+  "oh-mary": { moods: ["funny", "camp"], audiences: ["friends"], contentFlags: ["adult"], energy: "high" },
+  "little-shop": { moods: ["funny", "dark"], styles: ["cult"], audiences: ["friends"], contentFlags: ["dark"], energy: "medium" },
+  heathers: { moods: ["funny", "dark"], styles: ["cult", "pop"], audiences: ["friends"], contentFlags: ["dark", "adult"], energy: "high" },
+  "spelling-bee": { moods: ["funny", "warm"], styles: ["light"], audiences: ["friends", "solo"], energy: "medium" },
+  "play-that-goes-wrong": { moods: ["funny", "light"], styles: ["easy-entry"], audiences: ["friends", "family"], energy: "medium" },
+  "friends-musical-parody": { moods: ["funny", "light"], styles: ["nostalgic"], audiences: ["friends", "tourist"], energy: "medium" },
+  mexodus: { moods: ["thoughtful", "warm"], styles: ["new", "music-forward"], audiences: ["solo", "theater-lover"], energy: "medium" },
+  "gazillion-bubble-show": { moods: ["light", "visual"], styles: ["spectacle"], audiences: ["family"], energy: "low" },
+  "drunk-shakespeare": { moods: ["funny"], styles: ["immersive"], audiences: ["friends"], contentFlags: ["adult"], energy: "high" },
+  "perfect-crime": { moods: ["dark"], styles: ["thriller"], audiences: ["solo"], contentFlags: ["dark"], energy: "medium" },
+  antigone: { moods: ["intense"], styles: ["dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  jesa: { moods: ["thoughtful"], styles: ["intimate", "new"], audiences: ["solo"], energy: "low" },
+  touch: { moods: ["thoughtful"], styles: ["intimate"], audiences: ["solo"], energy: "low" },
+  trash: { moods: ["experimental"], styles: ["local"], audiences: ["theater-lover"], energy: "medium" },
+  "public-charge": { moods: ["thoughtful", "intense"], styles: ["new", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "medium" },
+  "ulster-american": { moods: ["funny", "sharp"], audiences: ["friends"], contentFlags: ["adult"], energy: "medium" },
+  "ice-queen": { moods: ["light"], styles: ["fantasy"], audiences: ["family"], energy: "medium" },
+  "ailey-ii": { moods: ["expressive"], styles: ["dance-forward", "artful"], audiences: ["solo", "date"], energy: "medium" },
+  "becky-shaw": { moods: ["sharp", "funny"], styles: ["intimate", "play"], audiences: ["friends", "date"], contentFlags: ["adult"], energy: "medium" },
+  "cats-jellicle-ball": { moods: ["energetic", "fun"], styles: ["dance-forward", "immersive"], audiences: ["friends", "tourist"], energy: "high" },
+  "the-balusters": { moods: ["funny", "sharp"], styles: ["new", "play"], audiences: ["friends"], energy: "medium" },
+  "beaches-a-new-musical": { moods: ["warm", "romantic"], styles: ["new", "music-forward"], audiences: ["date", "solo"], energy: "medium" },
+  "fallen-angels": { moods: ["funny", "classic"], styles: ["play", "classic"], audiences: ["date", "friends"], energy: "medium" },
+  "fear-of-13": { moods: ["intense", "thoughtful"], styles: ["intimate", "dramatic"], audiences: ["solo", "theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "joe-turners-come-and-gone": { moods: ["thoughtful", "intense"], styles: ["classic", "dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "the-lost-boys": { moods: ["dark", "energetic"], styles: ["cult", "new"], audiences: ["friends"], contentFlags: ["dark"], energy: "high" },
+  proof: { moods: ["thoughtful"], styles: ["intimate", "classic"], audiences: ["solo", "date"], energy: "low" },
+  "rocky-horror-show": { moods: ["funny", "camp"], styles: ["cult", "immersive"], audiences: ["friends"], contentFlags: ["adult"], energy: "high" },
+  schmigadoon: { moods: ["funny", "light"], styles: ["music-forward", "nostalgic"], audiences: ["friends", "tourist"], energy: "high" },
+  titanique: { moods: ["funny", "camp"], styles: ["pop", "cult"], audiences: ["friends"], energy: "high" },
+  "la-six": { moods: ["fun", "uplifting"], styles: ["pop"], audiences: ["friends"], energy: "high" },
+  "la-beetlejuice": { moods: ["funny", "dark"], styles: ["spectacle"], audiences: ["friends"], contentFlags: ["dark"], energy: "high" },
+  "la-amadeus": { moods: ["intense"], styles: ["classic", "dramatic"], audiences: ["theater-lover"], energy: "low" },
+  "la-dragon-mama": { moods: ["warm", "thoughtful"], styles: ["intimate"], audiences: ["solo"], energy: "low" },
+  "la-kims-convenience": { moods: ["warm", "funny", "healing"], styles: ["easy-entry"], audiences: ["family", "solo"], energy: "low" },
+  "la-here-lies-love": { moods: ["energetic"], styles: ["immersive", "dance-forward"], audiences: ["friends"], energy: "high" },
+  "la-spamalot": { moods: ["funny", "light"], styles: ["classic"], audiences: ["friends", "family"], energy: "high" },
+  "la-tina": { moods: ["uplifting"], styles: ["music-forward"], audiences: ["friends"], energy: "high" },
+  "la-mj": { moods: ["energetic"], styles: ["dance-forward", "spectacle"], audiences: ["friends"], energy: "high" },
+  "la-master-harold": { moods: ["intense"], styles: ["dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "la-sound-of-music": { moods: ["uplifting"], styles: ["classic"], audiences: ["family"], energy: "medium" },
+  "la-mamma-mia": { moods: ["fun", "uplifting"], styles: ["easy-entry"], audiences: ["date", "friends"], energy: "high" },
+  "la-hells-kitchen": { moods: ["energetic"], styles: ["new", "music-forward"], audiences: ["friends"], energy: "high" },
+  "la-phantom": { moods: ["romantic"], styles: ["classic", "spectacle"], audiences: ["date", "tourist"], energy: "medium" },
+  "la-primary-trust": { moods: ["healing", "thoughtful"], styles: ["intimate"], audiences: ["solo"], energy: "low" },
+  "la-song-of-the-north": { moods: ["poetic", "visual"], styles: ["spectacle", "artful"], audiences: ["family", "solo"], energy: "low" },
+  "la-brigadoon": { moods: ["romantic", "classic"], styles: ["classic", "music-forward"], audiences: ["date", "theater-lover"], energy: "medium" },
+  "la-mexodus-pasadena": { moods: ["thoughtful", "warm"], styles: ["new", "music-forward"], audiences: ["solo", "theater-lover"], energy: "medium" },
+  "sh-lion-boy": { moods: ["visual", "uplifting"], styles: ["spectacle", "fantasy"], audiences: ["family"], energy: "medium" },
+  "sh-don-juan": { moods: ["romantic", "dramatic"], styles: ["immersive", "classic"], audiences: ["date"], energy: "medium" },
+  "sh-musical-stars-gala": { moods: ["uplifting", "energetic"], styles: ["music-forward", "spectacle"], audiences: ["friends", "tourist"], energy: "high" },
+  "sh-maya-hakvoort-concert": { moods: ["warm", "uplifting"], styles: ["music-forward"], audiences: ["solo", "date"], energy: "medium" },
+  "sh-we-become-her": { moods: ["thoughtful", "new"], styles: ["intimate", "dramatic"], audiences: ["solo"], energy: "low" },
+  "sh-suti-chunxiao": { moods: ["poetic"], styles: ["artful", "dance-forward"], audiences: ["solo", "date"], energy: "low" },
+  "sh-kangzhan": { moods: ["intense"], styles: ["dramatic"], audiences: ["theater-lover"], contentFlags: ["heavy"], energy: "medium" },
+  "sh-kuangbiao": { moods: ["energetic"], styles: ["new", "dramatic"], audiences: ["friends"], energy: "high" },
+  "sh-dangerous-game": { moods: ["dark"], styles: ["thriller"], audiences: ["friends"], contentFlags: ["dark"], energy: "medium" },
+  "sh-pianist": { moods: ["thoughtful", "intense"], styles: ["music-forward", "dramatic"], audiences: ["solo", "theater-lover"], contentFlags: ["heavy"], energy: "low" },
+  "sh-baima": { moods: ["romantic"], styles: ["classic", "music-forward"], audiences: ["date"], energy: "medium" },
+  "sh-last-man": { moods: ["dark"], styles: ["new", "dramatic"], audiences: ["solo"], contentFlags: ["dark"], energy: "medium" },
+  "sh-apollonia": { moods: ["romantic", "immersive"], styles: ["intimate", "music-forward"], audiences: ["date", "friends"], energy: "medium" },
+  "sh-santa-lucia": { moods: ["romantic", "atmospheric"], styles: ["immersive"], audiences: ["date"], energy: "medium" },
+  "sh-time-agent": { moods: ["energetic"], styles: ["pop", "new"], audiences: ["friends"], energy: "high" },
+  "sh-xinji-road": { moods: ["warm"], styles: ["new", "intimate"], audiences: ["solo"], energy: "low" },
+  "sh-0528": { moods: ["experimental"], styles: ["new", "artful"], audiences: ["theater-lover"], energy: "medium" },
+  "sh-monster": { moods: ["dark"], styles: ["suspense"], audiences: ["friends"], contentFlags: ["dark"], energy: "medium" },
+  "sh-blood-doctor": { moods: ["dark", "intense"], styles: ["thriller"], audiences: ["friends"], contentFlags: ["dark"], energy: "high" },
+  "sh-hedwig": { moods: ["funny", "energetic"], styles: ["cult", "music-forward"], audiences: ["friends"], contentFlags: ["adult"], energy: "high" },
+  "sh-lizzie": { moods: ["dark", "energetic"], styles: ["cult", "rock"], audiences: ["friends"], contentFlags: ["dark"], energy: "high" },
+  "sh-benjamin-button": { moods: ["warm", "romantic"], styles: ["intimate", "music-forward"], audiences: ["date", "solo"], energy: "low" },
+  "sh-li-qingzhao": { moods: ["poetic"], styles: ["dance-forward", "artful"], audiences: ["solo", "date"], energy: "low" },
+  "sh-baihehua": { moods: ["poetic"], styles: ["dance-forward", "artful"], audiences: ["solo", "date"], energy: "low" }
 };
 
 function escapeHtml(value) {
@@ -2062,18 +2749,34 @@ function containsAny(text, terms) {
   return terms.some((term) => text.includes(term));
 }
 
-function parseAssistantQuery(input) {
+function detectAssistantLanguage(text = "") {
+  return /[\u3400-\u9fff]/.test(String(text)) ? "zh" : "en";
+}
+
+function createAssistantProfile(base = {}) {
+  return {
+    raw: base.raw || "",
+    city: base.city || null,
+    companions: base.companions || null,
+    budget: base.budget || null,
+    budgetCap: typeof base.budgetCap === "number" ? base.budgetCap : null,
+    mood: base.mood || null,
+    genre: base.genre || null,
+    wants: [...new Set(base.wants || [])],
+    avoids: [...new Set(base.avoids || [])]
+  };
+}
+
+function parseBudgetCap(normalized) {
+  const match = normalized.match(/(?:under|below|within|budget|不超过|以内|预算)\s*\$?\s*(\d{2,4})/);
+  return match ? Number(match[1]) : null;
+}
+
+function parseAssistantQuery(input, previousProfile = null) {
   const text = input.trim();
   const normalized = text.toLowerCase();
-  const profile = {
-    raw: text,
-    city: null,
-    companions: null,
-    budget: null,
-    mood: null,
-    genre: null,
-    wants: []
-  };
+  const profile = createAssistantProfile(previousProfile || {});
+  profile.raw = text;
 
   if (
     containsAny(normalized, ["new york", "nyc", "manhattan", "broadway", "纽约", "曼哈顿"])
@@ -2083,6 +2786,10 @@ function parseAssistantQuery(input) {
     containsAny(normalized, ["los angeles", "la ", " la", "hollywood", "洛杉矶"])
   ) {
     profile.city = "la";
+  } else if (
+    containsAny(normalized, ["shanghai", "上海"])
+  ) {
+    profile.city = "shanghai";
   }
 
   if (containsAny(normalized, ["solo", "alone", "by myself", "one person", "一个人", "独自"])) {
@@ -2116,6 +2823,7 @@ function parseAssistantQuery(input) {
   } else if (containsAny(normalized, ["premium", "luxury", "best seats", "高预算"])) {
     profile.budget = "high";
   }
+  profile.budgetCap = parseBudgetCap(normalized) || profile.budgetCap;
 
   if (
     containsAny(normalized, [
@@ -2156,6 +2864,16 @@ function parseAssistantQuery(input) {
   if (containsAny(normalized, ["romantic", "date night", "约会", "浪漫", "氛围好"])) {
     profile.wants.push("romantic");
   }
+  if (containsAny(normalized, ["healing", "治愈", "疗愈"])) {
+    profile.wants.push("healing");
+  }
+  if (containsAny(normalized, ["intimate", "small", "小而精", "亲密"])) {
+    profile.wants.push("intimate");
+  }
+  if (containsAny(normalized, ["avoid dark", "不要太沉重", "不要太黑暗", "不要悲伤", "不要太压抑"])) {
+    profile.avoids.push("dark");
+    profile.avoids.push("heavy");
+  }
 
   if (containsAny(normalized, ["musical", "音乐剧"])) {
     profile.genre = "Musicals";
@@ -2165,22 +2883,54 @@ function parseAssistantQuery(input) {
     profile.genre = "Plays";
   }
 
+  if (containsAny(normalized, ["family friendly", "kid friendly", "适合孩子", "合家欢"])) {
+    profile.wants.push("family");
+  }
+  if (containsAny(normalized, ["tourist", "第一次来", "第一次看百老汇", "必看"])) {
+    profile.wants.push("tourist-friendly");
+  }
+  if (containsAny(normalized, ["immersive", "沉浸式"])) {
+    profile.wants.push("immersive");
+  }
+  if (containsAny(normalized, ["thoughtful", "深一点", "有思考", "有深度"])) {
+    profile.wants.push("thoughtful");
+  }
+
   profile.wants = [...new Set(profile.wants)];
+  profile.avoids = [...new Set(profile.avoids)];
   return profile;
 }
 
 function showSignals(show) {
-  const signals = new Set(assistantProfiles[show.id] || []);
+  const seeded = assistantProfiles[show.id] || {};
+  const signals = {
+    moods: new Set(seeded.moods || []),
+    styles: new Set(seeded.styles || []),
+    audiences: new Set(seeded.audiences || []),
+    contentFlags: new Set(seeded.contentFlags || []),
+    energy: seeded.energy || "medium"
+  };
 
-  if (show.type === "Musicals") signals.add("musical");
-  if (show.type === "Plays") signals.add("play");
-  if (show.type === "Dance") signals.add("dance");
-  if (show.scene === "Broadway") signals.add("mainstream");
-  if (show.scene === "Off-Broadway") signals.add("intimate");
-  if (show.scene.includes("immersive")) signals.add("immersive");
-  if (productionStatus(show) === "Upcoming") signals.add("upcoming");
+  const searchable = [show.title, show.description, show.scene, show.venue].join(" ").toLowerCase();
+  if (show.type === "Musicals") signals.styles.add("musical");
+  if (show.type === "Plays") signals.styles.add("play");
+  if (show.type === "Dance") signals.styles.add("dance");
+  if (show.scene === "Broadway") signals.styles.add("mainstream");
+  if (show.scene === "Off-Broadway") signals.styles.add("intimate");
+  if (searchable.includes("immersive")) signals.styles.add("immersive");
+  if (searchable.includes("comedy") || searchable.includes("funny")) signals.moods.add("funny");
+  if (searchable.includes("family")) signals.audiences.add("family");
+  if (searchable.includes("touring") || searchable.includes("broadway")) signals.audiences.add("tourist");
+  if (searchable.includes("romantic")) signals.moods.add("romantic");
+  if (searchable.includes("spectacle") || searchable.includes("visual")) signals.styles.add("spectacle");
+  if (searchable.includes("warm")) signals.moods.add("warm");
+  if (searchable.includes("healing")) signals.moods.add("healing");
+  if (searchable.includes("thoughtful") || searchable.includes("poetic")) signals.moods.add("thoughtful");
+  if (searchable.includes("intimate")) signals.styles.add("intimate");
+  if (searchable.includes("thriller") || searchable.includes("dark")) signals.contentFlags.add("dark");
+  if (productionStatus(show) === "Upcoming") signals.styles.add("upcoming");
   if (new Date(show.openingDate).getTime() >= new Date("2025-01-01").getTime()) {
-    signals.add("new");
+    signals.styles.add("new");
   }
 
   return signals;
@@ -2193,7 +2943,8 @@ function recommendShows(profile) {
   const ranked = shows.map((show) => {
     const signals = showSignals(show);
     const reasons = [];
-    let score = show.popularityScore * 0.35;
+    let score = show.popularityScore * 0.42;
+    const matchedTags = [];
 
     const addReason = (points, reason) => {
       score += points;
@@ -2201,105 +2952,170 @@ function recommendShows(profile) {
         reasons.push(reason);
       }
     };
+    const addTag = (tag) => {
+      if (!matchedTags.includes(tag)) matchedTags.push(tag);
+    };
 
-    if (profile.genre === "Musicals" && signals.has("musical")) {
+    if (profile.genre === "Musicals" && signals.styles.has("musical")) {
       addReason(2.2, "Matches your preference for a musical.");
+      addTag("musical");
     }
-    if (profile.genre === "Plays" && signals.has("play")) {
+    if (profile.genre === "Plays" && signals.styles.has("play")) {
       addReason(2.2, "Matches your preference for a play.");
+      addTag("play");
     }
-    if (profile.genre === "Dance" && signals.has("dance")) {
+    if (profile.genre === "Dance" && signals.styles.has("dance")) {
       addReason(2.2, "Matches your preference for dance.");
+      addTag("dance");
     }
 
-    if (profile.budget === "low" && typeof show.regularPrice === "number") {
-      if (show.regularPrice <= 70) {
-        addReason(2.1, `Lower starting price at ${formatMoney(show.regularPrice)}.`);
-      } else if (show.regularPrice <= 100) {
-        addReason(1, `Fairly accessible starting price at ${formatMoney(show.regularPrice)}.`);
+    if (typeof show.regularPrice === "number" && typeof profile.budgetCap === "number") {
+      if (show.regularPrice <= profile.budgetCap) {
+        addReason(1.8, `Fits within your budget target at ${formatMoney(show.regularPrice, show.currency)}.`);
+        addTag("within-budget");
+      } else {
+        score -= 2.2;
+      }
+    } else if (profile.budget === "low" && typeof show.regularPrice === "number") {
+      if (show.regularPrice <= 70 || (show.currency === "CNY" && show.regularPrice <= 200)) {
+        addReason(2.1, `Lower starting price at ${formatMoney(show.regularPrice, show.currency)}.`);
+        addTag("budget");
+      } else if (show.regularPrice <= 100 || (show.currency === "CNY" && show.regularPrice <= 300)) {
+        addReason(1, `Fairly accessible starting price at ${formatMoney(show.regularPrice, show.currency)}.`);
       } else {
         score -= 1.2;
       }
     }
 
     if (profile.companions === "solo") {
-      if (signals.has("intimate") || signals.has("thoughtful")) {
+      if (signals.styles.has("intimate") || signals.moods.has("thoughtful") || signals.audiences.has("solo")) {
         addReason(1.6, "Feels like a strong solo-night pick with a more intimate scale.");
+        addTag("solo");
       }
-      if (signals.has("healing") || signals.has("warm")) {
+      if (signals.moods.has("healing") || signals.moods.has("warm")) {
         addReason(1.6, "Its warmer tone fits a solo night when you want something gentler.");
       }
     }
 
     if (profile.companions === "date") {
-      if (signals.has("romantic") || signals.has("date-night") || signals.has("atmospheric")) {
+      if (signals.moods.has("romantic") || signals.audiences.has("date") || signals.moods.has("atmospheric")) {
         addReason(2.2, "Strong date-night atmosphere.");
+        addTag("date");
       }
     }
 
     if (profile.companions === "family") {
-      if (signals.has("family") || signals.has("visual")) {
+      if (signals.audiences.has("family") || signals.styles.has("spectacle") || signals.moods.has("visual")) {
         addReason(2.4, "Good family fit with broad appeal or strong visuals.");
+        addTag("family");
       }
-      if (signals.has("adult") || signals.has("dark")) {
+      if (signals.contentFlags.has("adult") || signals.contentFlags.has("dark")) {
         score -= 3.6;
       }
     }
 
     if (profile.companions === "group") {
-      if (signals.has("funny") || signals.has("energetic") || signals.has("spectacle")) {
+      if (signals.moods.has("funny") || signals.energy === "high" || signals.styles.has("spectacle") || signals.audiences.has("friends")) {
         addReason(1.4, "Works well for a more social group outing.");
+        addTag("group");
       }
     }
 
     if (profile.mood === "low") {
       if (
-        signals.has("healing") ||
-        signals.has("warm") ||
-        signals.has("uplifting") ||
-        signals.has("light")
+        signals.moods.has("healing") ||
+        signals.moods.has("warm") ||
+        signals.moods.has("uplifting") ||
+        signals.moods.has("light")
       ) {
         addReason(2.4, "Better fit for lifting the mood without feeling heavy.");
+        addTag("mood-lift");
       }
-      if (signals.has("funny")) {
+      if (signals.moods.has("funny")) {
         addReason(2, "Comedy energy makes it a good pick when you want to feel better.");
       }
-      if (signals.has("dark") || signals.has("intense") || signals.has("dramatic")) {
+      if (signals.contentFlags.has("dark") || signals.contentFlags.has("heavy") || signals.moods.has("intense")) {
         score -= 2.4;
       }
     }
 
     if (profile.wants.includes("relaxing")) {
-      if (signals.has("healing") || signals.has("light") || signals.has("warm") || signals.has("visual")) {
+      if (signals.moods.has("healing") || signals.moods.has("light") || signals.moods.has("warm") || signals.moods.has("visual")) {
         addReason(2, "Leans relaxing, easy, or visually soothing.");
+        addTag("relaxing");
       }
     }
 
-    if (profile.wants.includes("funny") && signals.has("funny")) {
+    if (profile.wants.includes("funny") && signals.moods.has("funny")) {
       addReason(2, "Direct comedy match.");
+      addTag("funny");
     }
 
-    if (profile.wants.includes("spectacle") && (signals.has("spectacle") || signals.has("visual"))) {
+    if (profile.wants.includes("spectacle") && (signals.styles.has("spectacle") || signals.moods.has("visual"))) {
       addReason(2, "Brings the bigger-scale theatrical wow factor.");
+      addTag("spectacle");
     }
 
-    if (profile.wants.includes("classic") && signals.has("classic")) {
+    if (profile.wants.includes("classic") && signals.styles.has("classic")) {
       addReason(2, "Strong classic-title match.");
+      addTag("classic");
     }
 
-    if (profile.wants.includes("new") && (signals.has("new") || signals.has("upcoming"))) {
+    if (profile.wants.includes("new") && (signals.styles.has("new") || signals.styles.has("upcoming"))) {
       addReason(1.8, "Fits your interest in newer or near-term productions.");
+      addTag("new");
     }
 
-    if (profile.wants.includes("romantic") && (signals.has("romantic") || signals.has("date-night"))) {
+    if (profile.wants.includes("romantic") && (signals.moods.has("romantic") || signals.audiences.has("date"))) {
       addReason(2, "Has a more romantic atmosphere.");
+      addTag("romantic");
+    }
+
+    if (profile.wants.includes("healing") && signals.moods.has("healing")) {
+      addReason(1.8, "Its tone is especially aligned with a healing or gentle night.");
+      addTag("healing");
+    }
+
+    if (profile.wants.includes("intimate") && signals.styles.has("intimate")) {
+      addReason(1.8, "Smaller-scale and more intimate in feel.");
+      addTag("intimate");
+    }
+
+    if (profile.wants.includes("family") && signals.audiences.has("family")) {
+      addReason(1.8, "Feels family-friendly and easy to enjoy across ages.");
+      addTag("family");
+    }
+
+    if (profile.wants.includes("tourist-friendly") && (signals.audiences.has("tourist") || signals.styles.has("spectacle") || signals.styles.has("classic"))) {
+      addReason(1.7, "Feels like a strong first-visit or classic city pick.");
+      addTag("tourist");
+    }
+
+    if (profile.wants.includes("immersive") && signals.styles.has("immersive")) {
+      addReason(1.8, "Matches your interest in a more immersive format.");
+      addTag("immersive");
+    }
+
+    if (profile.wants.includes("thoughtful") && (signals.moods.has("thoughtful") || signals.styles.has("artful"))) {
+      addReason(1.7, "Has a more thoughtful, reflective tone.");
+      addTag("thoughtful");
+    }
+
+    if (profile.avoids.includes("dark") && signals.contentFlags.has("dark")) {
+      score -= 2;
+    }
+    if (profile.avoids.includes("heavy") && signals.contentFlags.has("heavy")) {
+      score -= 2;
+    }
+    if (profile.companions !== "family" && signals.contentFlags.has("adult")) {
+      score -= 0.3;
     }
 
     if (!reasons.length && show.popularityScore >= 9.2) {
       addReason(0.8, "A strong fallback because it is one of the guide's most reliable audience favorites.");
     }
 
-    return { show, score, reasons: reasons.slice(0, 3) };
+    return { show, score, reasons: reasons.slice(0, 3), matchedTags: matchedTags.slice(0, 5) };
   });
 
   ranked.sort((a, b) => {
@@ -2312,18 +3128,25 @@ function recommendShows(profile) {
   return {
     city,
     parsed: profile,
-    recommendations: ranked.slice(0, 3)
+    recommendations: ranked.slice(0, 5)
   };
 }
 
 function profilePills(profile, city) {
   const pills = [];
-  pills.push(city === "la" ? "Los Angeles" : "New York");
+  if (city === "la") {
+    pills.push("Los Angeles");
+  } else if (city === "shanghai") {
+    pills.push("Shanghai");
+  } else {
+    pills.push("New York");
+  }
   if (profile.companions === "solo") pills.push("Solo outing");
   if (profile.companions === "date") pills.push("Date night");
   if (profile.companions === "family") pills.push("Family / kids");
   if (profile.companions === "group") pills.push("Group");
   if (profile.budget === "low") pills.push("Budget-aware");
+  if (typeof profile.budgetCap === "number") pills.push(`Budget <= ${profile.budgetCap}`);
   if (profile.mood === "low") pills.push("Needs a mood lift");
   if (profile.genre === "Musicals") pills.push("Musicals");
   if (profile.genre === "Plays") pills.push("Plays");
@@ -2334,6 +3157,10 @@ function profilePills(profile, city) {
   if (profile.wants.includes("classic")) pills.push("Classic");
   if (profile.wants.includes("new")) pills.push("New work");
   if (profile.wants.includes("romantic")) pills.push("Romantic vibe");
+  if (profile.wants.includes("family")) pills.push("Family-friendly");
+  if (profile.wants.includes("tourist-friendly")) pills.push("Visitor favorite");
+  if (profile.wants.includes("immersive")) pills.push("Immersive");
+  if (profile.wants.includes("thoughtful")) pills.push("Thoughtful");
   return pills;
 }
 
@@ -2342,7 +3169,7 @@ function assistantGreetingMessage() {
     id: crypto.randomUUID(),
     role: "assistant",
     text:
-      "Tell me your city, who you're going with, your mood, budget, and what kind of show you want. I can recommend from this guide and, if you add an OpenAI API key, answer in a more natural concierge style.",
+      "Tell me your city, mood, who you're going with, and what kind of show you want.",
     recommendations: []
   };
 }
@@ -2379,7 +3206,7 @@ function recommendationHighlights(show, reason) {
   const highlights = [];
 
   if (typeof show.regularPrice === "number") {
-    highlights.push(`Starting around ${formatMoney(show.regularPrice)}.`);
+    highlights.push(`Starting around ${formatMoney(show.regularPrice, show.currency)}.`);
   }
 
   if (show.runtime) {
@@ -2395,16 +3222,33 @@ function recommendationHighlights(show, reason) {
 
 function recommendationStats(show) {
   return [
-    typeof show.regularPrice === "number" ? `From ${formatMoney(show.regularPrice)}` : "Price TBA",
+    typeof show.regularPrice === "number" ? `From ${formatMoney(show.regularPrice, show.currency)}` : "Price TBA",
     show.customerRating ? `${show.customerRating}/5 audience` : "Editorially curated",
     `Popularity ${show.popularityScore.toFixed(1)}/10`,
     show.runtime
   ].filter(Boolean);
 }
 
-function recommendationCardMarkup(show, reason, index, city) {
+function recommendationCardMarkup(show, reason, index, city, language = "en") {
   const highlights = recommendationHighlights(show, reason);
-  const priceLabel = typeof show.regularPrice === "number" ? formatMoney(show.regularPrice) : "Price TBA";
+  const priceLabel =
+    typeof show.regularPrice === "number" ? formatMoney(show.regularPrice, show.currency) : "Price TBA";
+  const labels =
+    language === "zh"
+      ? {
+          summary: "简介",
+          why: "推荐理由",
+          price: "价格",
+          open: "在指南中查看",
+          ticket: "购票页面"
+        }
+      : {
+          summary: "Summary",
+          why: "Why this fits you",
+          price: "Price",
+          open: "Open in guide",
+          ticket: "Ticket page"
+        };
 
   return `
     <article class="assistant-rec-card">
@@ -2415,8 +3259,8 @@ function recommendationCardMarkup(show, reason, index, city) {
           <p class="muted">${escapeHtml(show.scene)} • ${escapeHtml(show.venue)}</p>
         </div>
       </div>
-      <p class="assistant-rec-summary">${escapeHtml(show.description)}</p>
-      <p class="assistant-rec-why"><strong>Why this fits you:</strong> ${escapeHtml(reason || show.description)}</p>
+      <p class="assistant-rec-summary"><strong>${labels.summary}:</strong> ${escapeHtml(show.description)}</p>
+      <p class="assistant-rec-why"><strong>${labels.why}:</strong> ${escapeHtml(reason || show.description)}</p>
       ${
         highlights.length
           ? `<ul class="assistant-rec-highlights">
@@ -2424,28 +3268,78 @@ function recommendationCardMarkup(show, reason, index, city) {
             </ul>`
           : ""
       }
-      <p class="assistant-rec-price"><strong>Price:</strong> ${escapeHtml(priceLabel)}</p>
+      <p class="assistant-rec-price"><strong>${labels.price}:</strong> ${escapeHtml(priceLabel)}</p>
       <div class="assistant-message-actions">
         <button class="link-btn secondary assistant-open-btn" type="button" data-city="${city}" data-show-id="${show.id}">
-          Open in guide
+          ${labels.open}
         </button>
-        <a class="link-btn primary" href="${show.buyLink}" target="_blank" rel="noreferrer">Ticket page</a>
+        <a class="link-btn primary" href="${show.buyLink}" target="_blank" rel="noreferrer">${labels.ticket}</a>
       </div>
     </article>
   `;
 }
 
-function shouldStickThreadToBottom(thread) {
-  const threshold = 36;
-  return thread.scrollHeight - thread.scrollTop - thread.clientHeight <= threshold;
+function formatAssistantParagraphs(text, role) {
+  const raw = String(text || "").trim();
+  if (!raw) return [""]; 
+
+  if (role === "user") {
+    return raw.split(/\n+/).filter(Boolean);
+  }
+
+  const normalized = raw.replace(/\n{3,}/g, "\n\n");
+  const explicitParagraphs = normalized
+    .split(/\n\s*\n/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (explicitParagraphs.length > 1) {
+    return explicitParagraphs;
+  }
+
+  const sentences = normalized
+    .replace(/\n+/g, " ")
+    .match(/[^.!?。！？]+[.!?。！？]?/g)
+    ?.map((part) => part.trim())
+    .filter(Boolean);
+
+  if (!sentences || sentences.length <= 2) {
+    return [normalized];
+  }
+
+  const paragraphs = [];
+  for (let index = 0; index < sentences.length; index += 2) {
+    paragraphs.push(sentences.slice(index, index + 2).join(" "));
+  }
+  return paragraphs;
 }
 
-function renderAssistantThread() {
+function scrollAssistantThreadToLatestReply() {
+  const thread = document.getElementById("assistant-thread");
+  if (!thread) return;
+
+  const messages = [...thread.querySelectorAll(".assistant-message.assistant-bot")];
+  const latestReply = messages.at(-1);
+
+  if (latestReply) {
+    latestReply.scrollIntoView({ block: "start" });
+    return;
+  }
+
+  const anchor = document.getElementById("assistant-thread-end");
+  if (anchor) {
+    anchor.scrollIntoView({ block: "end" });
+  }
+}
+
+function renderAssistantThread(forceScroll = false, scrollMode = "reply-start") {
   const thread = document.getElementById("assistant-thread");
   const city = state.selectedCity || "nyc";
-  const stickToBottom = shouldStickThreadToBottom(thread);
+  const messages = currentAssistantMessages();
 
-  thread.innerHTML = currentAssistantMessages()
+  thread.dataset.empty = String(messages.length === 0);
+
+  thread.innerHTML = messages
     .map((message) => {
       if (message.typing) {
         return `
@@ -2468,15 +3362,14 @@ function renderAssistantThread() {
             <div class="assistant-message-head">
               <span class="assistant-author">${message.role === "user" ? "You" : "Assistant"}</span>
             </div>
-            <div class="assistant-message-text">${message.text
-              .split("\n")
+            <div class="assistant-message-text">${formatAssistantParagraphs(message.text, message.role)
               .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
               .join("")}</div>
             ${
               message.recommendations && message.recommendations.length
                 ? message.recommendations
                     .map((item, index) =>
-                      recommendationCardMarkup(item.show, item.reason, index, item.city || city)
+                      recommendationCardMarkup(item.show, item.reason, index, item.city || city, message.language || "en")
                     )
                     .join("")
                 : ""
@@ -2485,7 +3378,7 @@ function renderAssistantThread() {
         </div>
       `;
     })
-    .join("");
+    .join("") + '<div id="assistant-thread-end"></div>';
 
   thread.querySelectorAll(".assistant-open-btn").forEach((button) => {
     button.addEventListener("click", () => {
@@ -2493,24 +3386,32 @@ function renderAssistantThread() {
     });
   });
 
-  if (stickToBottom) {
+  if (forceScroll) {
     requestAnimationFrame(() => {
-      thread.scrollTop = thread.scrollHeight;
+      if (scrollMode === "reply-start") {
+        scrollAssistantThreadToLatestReply();
+        return;
+      }
+
+      const anchor = document.getElementById("assistant-thread-end");
+      anchor?.scrollIntoView({ block: "end" });
     });
   }
 }
 
-function pushAssistantMessage(message) {
+function pushAssistantMessage(message, scrollMode = "reply-start") {
   state.assistantMessages.push({
     id: crypto.randomUUID(),
     recommendations: [],
     ...message
   });
-  renderAssistantThread();
+  renderAssistantThread(true, scrollMode);
 }
 
 function syncAssistantStatus() {
   const status = document.getElementById("assistant-ai-status");
+  if (!status) return;
+
   if (state.assistantServerReady) {
     status.textContent = "AI concierge is connected on the server and will answer with the smarter version by default.";
     return;
@@ -2559,6 +3460,49 @@ function applyAssistantPosition() {
   widget.style.bottom = "auto";
 }
 
+function sizeAssistantDrawer() {
+  const widget = document.getElementById("assistant-widget");
+  const launcher = document.getElementById("assistant-launcher");
+  const drawer = document.getElementById("assistant-drawer");
+
+  if (!widget || !launcher || !drawer) return;
+
+  const widgetRect = widget.getBoundingClientRect();
+  const launcherHeight = launcher.offsetHeight || 76;
+  const gap = 14;
+  const viewportPadding = 16;
+  const spaceAbove = Math.max(220, widgetRect.top - gap - viewportPadding);
+  const spaceBelow = Math.max(
+    220,
+    window.innerHeight - (widgetRect.top + launcherHeight + gap + viewportPadding)
+  );
+
+  state.assistantPlacement = spaceBelow >= spaceAbove ? "down" : "up";
+  widget.dataset.placement = state.assistantPlacement;
+  drawer.style.maxHeight = `${Math.max(spaceAbove, spaceBelow)}px`;
+}
+
+function positionAssistantCloseButton() {
+  const drawer = document.getElementById("assistant-drawer");
+  const close = document.getElementById("assistant-close");
+
+  if (!drawer || !close || !state.assistantOpen) {
+    if (close) {
+      close.style.removeProperty("left");
+      close.style.removeProperty("top");
+    }
+    return;
+  }
+
+  const closeSize = 40;
+  const overlap = 18;
+  const left = drawer.offsetLeft + drawer.offsetWidth - closeSize / 2;
+  const top = drawer.offsetTop - overlap;
+
+  close.style.left = `${left}px`;
+  close.style.top = `${top}px`;
+}
+
 function persistAssistantPosition() {
   try {
     if (!state.assistantPosition) return;
@@ -2572,14 +3516,16 @@ function syncAssistantWidget() {
   const widget = document.getElementById("assistant-widget");
   const launcher = document.getElementById("assistant-launcher");
   const drawer = document.getElementById("assistant-drawer");
-  const widgetRect = widget.getBoundingClientRect();
 
   launcher.setAttribute("aria-expanded", String(state.assistantOpen));
   drawer.dataset.open = String(state.assistantOpen);
+  widget.dataset.open = String(state.assistantOpen);
   widget.dataset.dragging = String(state.assistantDragging);
-  state.assistantPlacement = widgetRect.top > window.innerHeight / 2 ? "up" : "down";
-  widget.dataset.placement = state.assistantPlacement;
-  requestAnimationFrame(applyAssistantPosition);
+  requestAnimationFrame(() => {
+    applyAssistantPosition();
+    sizeAssistantDrawer();
+    positionAssistantCloseButton();
+  });
 }
 
 function setAssistantOpen(isOpen) {
@@ -2597,9 +3543,10 @@ function loadAssistantPosition() {
 }
 
 function resetAssistantConversation() {
-  state.assistantMessages = [assistantGreetingMessage()];
+  state.assistantMessages = [];
+  state.assistantUserProfile = null;
   state.assistantPending = false;
-  renderAssistantThread();
+  renderAssistantThread(true, "end");
 }
 
 async function fetchAssistantStatus() {
@@ -2648,6 +3595,8 @@ function bindAssistantDragging() {
       top: startTop + deltaY
     });
     applyAssistantPosition();
+    sizeAssistantDrawer();
+    positionAssistantCloseButton();
   };
 
   const onPointerUp = () => {
@@ -2696,45 +3645,50 @@ function bindAssistantDragging() {
 }
 
 function buildLocalAssistantReply(result) {
-  const cityLabel = result.city === "la" ? "Los Angeles" : "New York";
-  const pills = profilePills(result.parsed, result.city);
-  const picks = result.recommendations.map(({ show, reasons }) => ({
+  const language = detectAssistantLanguage(result.parsed?.raw || "");
+  const picks = result.recommendations.slice(0, 3).map(({ show, reasons }) => ({
     show,
     city: result.city,
     reason: reasons[0] || show.description
   }));
-  const summary = [
-    `I read this as ${cityLabel}${pills.length ? `, with signals like ${pills.join(", ")}` : ""}.`,
-    "I used the guide's current show data, price points, and fit signals to pick the best matches."
-  ].join("\n");
+  const summary =
+    language === "zh"
+      ? "我帮你挑了 3 个更贴合这次需求的剧目，你可以直接看看下面的简介、推荐理由和价格。"
+      : "I picked 3 shows that best fit this plan, so you can compare the description, reason, and price below.";
 
   return {
     text: summary,
-    recommendations: picks
+    recommendations: picks,
+    language
   };
 }
 
 function buildAiPrompt(query, result) {
-  const cityLabel = result.city === "la" ? "Los Angeles" : "New York";
+  const cityLabel = result.city === "la" ? "Los Angeles" : result.city === "shanghai" ? "Shanghai" : "New York";
   const conversation = state.assistantMessages
     .slice(-6)
     .map((message) => `${message.role === "user" ? "User" : "Assistant"}: ${message.text}`)
     .join("\n");
+  const shouldReplyInChinese = detectAssistantLanguage(query) === "zh";
 
   const candidateBlock = result.recommendations
-    .slice(0, 3)
+    .slice(0, 5)
     .map(
-      ({ show, reasons }, index) =>
+      ({ show, reasons, matchedTags, score }, index) =>
         `${index + 1}. ${show.id} | ${show.title} | ${show.type} | ${show.scene} | from ${formatRegularPrice(
           show.regularPrice
-        )} | ${show.description} | local reasons: ${reasons.join(" ; ")}`
+        )} | ${show.description} | local score: ${score.toFixed(1)} | matched tags: ${matchedTags.join(", ")} | local reasons: ${reasons.join(" ; ")}`
     )
     .join("\n");
 
   return `
 You are a warm, concise theater recommendation concierge for a site called Theater Master.
 Use only the show candidates provided below. Do not invent shows.
-Write a short, natural recommendation reply in plain English.
+The local ranker has already filtered the catalog into the top 5 candidates. Your job is to pick and explain the best 3.
+Reply in ${shouldReplyInChinese ? "natural Simplified Chinese" : "natural English"}.
+Keep the tone helpful, specific, and easy to skim.
+Do not mention internal reasoning, extracted signals, ranking steps, filtering steps, local scores, tags, or how the system works.
+Speak directly to the user and move straight into the recommendation.
 Then output a JSON object only, with this exact shape:
 {
   "reply": "2-4 short paragraphs",
@@ -2751,10 +3705,13 @@ ${conversation || "No prior conversation."}
 Latest user message:
 ${query}
 
+Structured user profile:
+${JSON.stringify(result.parsed, null, 2)}
+
 City context:
 ${cityLabel}
 
-Candidate shows:
+Top 5 candidate shows:
 ${candidateBlock}
   `.trim();
 }
@@ -2809,30 +3766,37 @@ async function fetchAiAssistantReply(query, result) {
 
   return {
     text: parsed.reply || buildLocalAssistantReply(result).text,
-    recommendations: recommendations.length ? recommendations : buildLocalAssistantReply(result).recommendations
+    recommendations: recommendations.length ? recommendations : buildLocalAssistantReply(result).recommendations,
+    language: detectAssistantLanguage(parsed.reply || result.parsed?.raw || "")
   };
 }
 
 async function runAssistantQuery(rawQuery) {
   const query = rawQuery.trim();
   const input = document.getElementById("assistant-input");
+  const language = detectAssistantLanguage(query);
 
   setAssistantOpen(true);
 
   if (!query) {
     pushAssistantMessage({
       role: "assistant",
-      text: 'Add a short sentence first, for example: "I\'m in New York, going solo, and want something relaxing."'
-    });
+      text:
+        language === "zh"
+          ? "先写一句你的需求吧，比如：我在纽约，一个人，想看一部轻松一点的剧。"
+          : 'Add a short sentence first, for example: "I\'m in New York, going solo, and want something relaxing."',
+      language
+    }, "reply-start");
     return;
   }
 
-  pushAssistantMessage({ role: "user", text: query });
+  pushAssistantMessage({ role: "user", text: query }, "end");
   input.value = "";
   state.assistantPending = true;
-  renderAssistantThread();
+  renderAssistantThread(true, "end");
 
-  const parsed = parseAssistantQuery(query);
+  const parsed = parseAssistantQuery(query, state.assistantUserProfile);
+  state.assistantUserProfile = parsed;
   const result = recommendShows(parsed);
   const fallbackReply = buildLocalAssistantReply(result);
 
@@ -2844,18 +3808,22 @@ async function runAssistantQuery(rawQuery) {
     pushAssistantMessage({
       role: "assistant",
       text: reply.text,
-      recommendations: reply.recommendations
-    });
+      recommendations: reply.recommendations,
+      language: reply.language || language
+    }, "reply-start");
   } catch (error) {
     pushAssistantMessage({
       role: "assistant",
       text:
-        "I couldn't reach OpenAI just now, so I switched back to the local recommendation engine for this reply.",
-      recommendations: fallbackReply.recommendations
-    });
+        language === "zh"
+          ? "刚刚没连上 OpenAI，我先用本地推荐结果继续帮你挑了这 3 部。"
+          : "I couldn't reach OpenAI just now, so I used the local recommendation engine for this reply.",
+      recommendations: fallbackReply.recommendations,
+      language
+    }, "reply-start");
   } finally {
     state.assistantPending = false;
-    renderAssistantThread();
+    renderAssistantThread(true, "reply-start");
   }
 
   const topPick = (result.recommendations[0] && result.recommendations[0].show) || null;
@@ -2895,23 +3863,34 @@ function posterSrc(show) {
   return `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='630' viewBox='0 0 420 630'><rect width='420' height='630' fill='%23F1ECE0'/><rect x='18' y='18' width='384' height='594' rx='24' fill='%23FFFDF8' stroke='%23117C0D' stroke-opacity='0.18'/><rect x='18' y='18' width='384' height='96' rx='24' fill='%23FAC75E'/><text x='210' y='76' text-anchor='middle' font-family='Georgia, serif' font-size='42' fill='%23173423'>PLAYBILL</text><text x='210' y='156' text-anchor='middle' font-family='Arial, sans-serif' font-size='18' fill='%2359715F'>${scene}</text><text x='210' y='296' text-anchor='middle' font-family='Georgia, serif' font-size='30' fill='%23173423'>${title}</text><text x='210' y='342' text-anchor='middle' font-family='Arial, sans-serif' font-size='22' fill='%23117C0D'>${type}</text><circle cx='210' cy='454' r='86' fill='%23FAC75E' fill-opacity='0.32'/><circle cx='210' cy='454' r='52' fill='%23117C0D' fill-opacity='0.14'/></svg>`;
 }
 
-const formatMoney = (value) =>
-  new Intl.NumberFormat("en-US", {
+const formatMoney = (value, currency = "USD") =>
+  new Intl.NumberFormat(currency === "CNY" ? "zh-CN" : "en-US", {
     style: "currency",
-    currency: "USD",
+    currency,
     maximumFractionDigits: value % 1 === 0 ? 0 : 2
   }).format(value);
 
-const formatRegularPrice = (value) => (typeof value === "number" ? formatMoney(value) : "Price TBA");
+const formatRegularPrice = (value, currency = "USD") =>
+  typeof value === "number" ? formatMoney(value, currency) : "Price TBA";
 
 function renderStats() {
   const shows = currentShows();
   const pricedShows = shows.filter((show) => typeof show.regularPrice === "number");
   document.getElementById("show-count").textContent = `${shows.length}`;
   document.getElementById("show-count-note").textContent = currentCityMeta().statNote;
-  document.getElementById("lowest-standard").textContent = pricedShows.length
-    ? formatMoney(Math.min(...pricedShows.map((show) => show.regularPrice)))
-    : "TBA";
+  if (!pricedShows.length) {
+    document.getElementById("lowest-standard").textContent = "TBA";
+    return;
+  }
+
+  const lowestShow = pricedShows.reduce((lowest, show) =>
+    show.regularPrice < lowest.regularPrice ? show : lowest
+  );
+
+  document.getElementById("lowest-standard").textContent = formatMoney(
+    lowestShow.regularPrice,
+    lowestShow.currency
+  );
 }
 
 function renderFilters() {
@@ -2997,7 +3976,7 @@ function renderSummary(filtered) {
 }
 
 function currentShows() {
-  const shows = state.selectedCity === "la" ? showCatalog.la : showCatalog.nyc;
+  const shows = showCatalog[state.selectedCity] || showCatalog.nyc;
   return shows.filter(isVisibleOnGuide);
 }
 
@@ -3034,7 +4013,7 @@ function renderList(filtered) {
               <p class="muted">${show.venue} • ${show.address}</p>
             </div>
             <div class="price-box">
-              <strong>${formatRegularPrice(show.regularPrice)}</strong>
+              <strong>${formatRegularPrice(show.regularPrice, show.currency)}</strong>
               <span>${typeof show.regularPrice === "number" ? "regular tickets from" : "official pricing pending"}</span>
             </div>
           </div>
@@ -3102,7 +4081,7 @@ function renderDetail(show) {
     <div class="detail-section">
       <h4>Ticket Pricing</h4>
       <div class="detail-price-stack">
-        <div class="deal-highlight">${typeof show.regularPrice === "number" ? `Regular tickets from ${formatMoney(show.regularPrice)}` : "Regular ticket pricing still to be announced"}</div>
+        <div class="deal-highlight">${typeof show.regularPrice === "number" ? `Regular tickets from ${formatMoney(show.regularPrice, show.currency)}` : "Regular ticket pricing still to be announced"}</div>
         <span class="meta-item">${typeof show.regularPrice === "number" ? `Observed from current official or primary ticket pages around ${formattedGuideDate()}.` : "This production is announced, but a stable public starting price was not surfaced in the official source used here."}</span>
       </div>
       <div class="price-grid">
@@ -3244,6 +4223,17 @@ function bindControls() {
     applyFilters();
   });
 
+  document.getElementById("choose-shanghai").addEventListener("click", () => {
+    state.selectedCity = "shanghai";
+    state.selectedId = null;
+    state.activeCategory = "All";
+    state.search = "";
+    document.getElementById("search-input").value = "";
+    renderCityShell();
+    renderStats();
+    applyFilters();
+  });
+
   document.getElementById("back-to-cities").addEventListener("click", () => {
     state.selectedCity = null;
     renderCityShell();
@@ -3263,27 +4253,25 @@ function bindControls() {
     runAssistantQuery(document.getElementById("assistant-input").value);
   });
 
-  document.getElementById("assistant-fill-example").addEventListener("click", () => {
-    const example = "我在纽约，今天一个人，心情不太好，想要看放松心情的剧目。";
-    document.getElementById("assistant-input").value = example;
-    runAssistantQuery(example);
-  });
-
   document.getElementById("assistant-clear-chat").addEventListener("click", () => {
     resetAssistantConversation();
   });
 
-  document.querySelectorAll(".example-chip").forEach((button) => {
-    button.addEventListener("click", () => {
-      document.getElementById("assistant-input").value = button.textContent.trim();
-      runAssistantQuery(button.textContent);
-    });
-  });
-
   document.getElementById("assistant-input").addEventListener("keydown", (event) => {
-    if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
-      runAssistantQuery(event.target.value);
+    if (event.key !== "Enter") return;
+
+    if (event.ctrlKey) {
+      return;
     }
+
+    if (event.metaKey) {
+      event.preventDefault();
+      runAssistantQuery(event.target.value);
+      return;
+    }
+
+    event.preventDefault();
+    runAssistantQuery(event.target.value);
   });
 
   document.getElementById("assistant-close").addEventListener("click", () => {

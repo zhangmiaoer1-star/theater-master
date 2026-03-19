@@ -181,12 +181,33 @@ a {
 
 .filter-group {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
-  flex: 2 1 340px;
+  flex: 1 1 340px;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(17, 124, 13, 0.28) transparent;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.filter-group::-webkit-scrollbar {
+  height: 8px;
+}
+
+.filter-group::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.filter-group::-webkit-scrollbar-thumb {
+  background: rgba(17, 124, 13, 0.22);
+  border-radius: 999px;
 }
 
 .filter-chip {
+  flex: 0 0 auto;
   border: 1px solid rgba(17, 124, 13, 0.16);
   background: var(--surface-strong);
   color: var(--ink);
@@ -553,8 +574,10 @@ a {
   right: 0;
   width: min(420px, calc(100vw - 24px));
   max-height: min(76vh, 860px);
-  padding: 22px;
-  overflow: auto;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -602,10 +625,12 @@ a {
 .assistant-drawer-head h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.06;
 }
 
 .assistant-close {
+  position: absolute;
   width: 40px;
   height: 40px;
   border: 1px solid rgba(17, 124, 13, 0.14);
@@ -616,39 +641,29 @@ a {
   font-size: 1.6rem;
   line-height: 1;
   cursor: pointer;
+  box-shadow: 0 14px 28px rgba(23, 52, 35, 0.14);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.assistant-widget[data-open="true"] .assistant-close {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .assistant-subtitle {
-  margin: 14px 0 0;
+  margin: 6px 0 0;
   color: var(--muted);
-  line-height: 1.6;
-}
-
-.assistant-config {
-  margin-top: 18px;
-  padding: 16px;
-  border-radius: 20px;
-  background: rgba(17, 124, 13, 0.06);
-  border: 1px solid rgba(17, 124, 13, 0.1);
-}
-
-.assistant-config-note {
-  margin: 8px 0 0;
-  color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.4;
+  flex-shrink: 0;
   font-size: 0.92rem;
-}
-
-.assistant-drag-note {
-  margin: 8px 0 0;
-  color: var(--muted);
-  font-size: 0.88rem;
 }
 
 .assistant-label,
 .assistant-signal-label {
   display: block;
-  margin-top: 18px;
+  margin-top: 8px;
   font-size: 0.84rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -682,32 +697,27 @@ a {
 }
 
 .assistant-actions {
-  margin-top: 14px;
-}
-
-.example-row {
-  margin-top: 16px;
-}
-
-.example-chip {
-  padding: 10px 14px;
-  border-radius: 999px;
-  border: 1px solid rgba(17, 124, 13, 0.14);
-  background: rgba(250, 199, 94, 0.14);
-  color: var(--ink);
-  cursor: pointer;
-  font: inherit;
-  text-align: left;
+  margin-top: 10px;
 }
 
 .assistant-thread {
-  margin-top: 18px;
-  padding: 14px;
+  margin-top: 12px;
+  padding: 12px;
   display: grid;
   gap: 12px;
-  max-height: 320px;
+  flex: 1 1 auto;
+  min-height: 220px;
+  max-height: none;
+  min-width: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   background: linear-gradient(180deg, rgba(17, 124, 13, 0.03), rgba(255, 255, 255, 0.9));
+}
+
+.assistant-thread[data-empty="true"] {
+  display: none;
 }
 
 .assistant-message {
@@ -724,8 +734,8 @@ a {
 
 .assistant-message-bubble {
   width: fit-content;
-  max-width: 90%;
-  padding: 14px 16px;
+  max-width: 94%;
+  padding: 12px 14px;
   box-shadow: none;
 }
 
@@ -774,11 +784,12 @@ a {
 }
 
 .assistant-composer {
-  margin-top: 18px;
+  margin-top: 8px;
+  flex-shrink: 0;
 }
 
 .assistant-input-compact {
-  min-height: 96px;
+  min-height: 72px;
 }
 
 .assistant-summary h3,
@@ -915,7 +926,7 @@ a {
 
 .city-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   margin-top: 18px;
 }
@@ -949,7 +960,8 @@ a {
 }
 
 .city-card-nyc,
-.city-card-la {
+.city-card-la,
+.city-card-shanghai {
   background:
     linear-gradient(180deg, rgba(250, 199, 94, 0.22), rgba(255, 253, 248, 0.94)),
     var(--surface-strong);
