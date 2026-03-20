@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T17:42:41+00:00",
+  "generatedAt": "2026-03-20T16:09:15+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -98,8 +98,8 @@
           "openingDate": null,
           "endDate": null,
           "regularPrice": null,
-          "runtime": "2 hours",
-          "ageGuidance": "Recommended for ages 8+",
+          "runtime": null,
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "officialSiteLabel": "Official event page",
