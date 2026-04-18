@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T17:11:54+00:00",
+  "generatedAt": "2026-04-18T14:59:50+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
@@ -61,7 +61,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
           "officialSiteLabel": "Official event page",
