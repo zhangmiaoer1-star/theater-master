@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T14:59:50+00:00",
+  "generatedAt": "2026-04-19T14:59:56+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -98,8 +98,8 @@
           "openingDate": null,
           "endDate": null,
           "regularPrice": null,
-          "runtime": null,
-          "ageGuidance": null,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "officialSiteLabel": "Official event page",
@@ -135,9 +135,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": null,
-          "runtime": null,
-          "ageGuidance": null,
+          "regularPrice": 47.0,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "officialSiteLabel": "Official event page",
