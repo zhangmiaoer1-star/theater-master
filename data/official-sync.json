@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T15:39:33+00:00",
+  "generatedAt": "2026-04-25T15:03:00+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -23,7 +23,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "officialSiteLabel": "Official event page",
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
@@ -61,7 +61,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
           "officialSiteLabel": "Official event page",
@@ -71,7 +71,7 @@
         },
         {
           "id": "la-mj",
-          "title": "mj",
+          "title": "MJ",
           "type": "Musicals",
           "scene": "Broadway in Hollywood",
           "venue": "Pantages Theatre",
@@ -219,7 +219,7 @@
           "Beetlejuice",
           "Spamalot",
           "TINA - The Tina Turner Musical",
-          "mj",
+          "MJ",
           "The Sound of Music",
           "Hell's Kitchen",
           "The Phantom of the Opera",
