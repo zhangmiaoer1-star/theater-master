@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T15:03:35+00:00",
+  "generatedAt": "2026-04-27T15:59:55+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
@@ -78,9 +78,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": null,
-          "runtime": null,
-          "ageGuidance": null,
+          "regularPrice": 56.0,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "officialSiteLabel": "Official event page",
