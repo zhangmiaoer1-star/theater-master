@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T15:06:07+00:00",
+  "generatedAt": "2026-05-03T15:07:20+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -61,7 +61,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
           "officialSiteLabel": "Official event page",
@@ -71,7 +71,7 @@
         },
         {
           "id": "la-mj",
-          "title": "mJ",
+          "title": "MJ",
           "type": "Musicals",
           "scene": "Broadway in Hollywood",
           "venue": "Pantages Theatre",
@@ -135,9 +135,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": 47.0,
-          "runtime": "2 hours",
-          "ageGuidance": "Recommended for ages 8+",
+          "regularPrice": null,
+          "runtime": null,
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "officialSiteLabel": "Official event page",
@@ -219,7 +219,7 @@
           "Beetlejuice",
           "Spamalot",
           "TINA - The Tina Turner Musical",
-          "mJ",
+          "MJ",
           "The Sound of Music",
           "Hell's Kitchen",
           "The Phantom of the Opera",
