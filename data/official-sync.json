@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T15:07:20+00:00",
+  "generatedAt": "2026-05-04T16:15:16+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
@@ -80,7 +80,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "officialSiteLabel": "Official event page",
@@ -135,9 +135,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": null,
-          "runtime": null,
-          "ageGuidance": null,
+          "regularPrice": 47.0,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "officialSiteLabel": "Official event page",
