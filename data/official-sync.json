@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T16:48:48+00:00",
+  "generatedAt": "2026-05-12T16:32:59+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -135,9 +135,9 @@
           "address": "6233 Hollywood Boulevard, Los Angeles",
           "openingDate": null,
           "endDate": null,
-          "regularPrice": null,
-          "runtime": null,
-          "ageGuidance": null,
+          "regularPrice": 47.0,
+          "runtime": "2 hours",
+          "ageGuidance": "Recommended for ages 8+",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/phantom",
           "officialSiteLabel": "Official event page",
