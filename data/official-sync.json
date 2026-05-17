@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T15:17:45+00:00",
+  "generatedAt": "2026-05-17T15:18:29+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -61,7 +61,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
           "officialSiteLabel": "Official event page",
@@ -80,7 +80,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "officialSiteLabel": "Official event page",
