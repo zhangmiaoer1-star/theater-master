@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T18:39:54+00:00",
+  "generatedAt": "2026-06-17T17:24:58+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -61,7 +61,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/tina",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/tina",
           "officialSiteLabel": "Official event page",
@@ -80,7 +80,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/mj-1",
           "officialSiteLabel": "Official event page",
@@ -99,7 +99,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/sound-of-music",
           "officialSiteLabel": "Official event page",
