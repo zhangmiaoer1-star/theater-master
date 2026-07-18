@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:42:16+00:00",
+  "generatedAt": "2026-07-18T15:16:00+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -118,7 +118,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/hells-kitchen",
           "officialSiteLabel": "Official event page",
