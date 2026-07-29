@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:15:48+00:00",
+  "generatedAt": "2026-07-29T15:58:36+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -23,7 +23,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/beetlejuice-1",
           "officialSiteLabel": "Official event page",
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": "ages Theatre",
+          "ageGuidance": null,
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
