@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:01:55+00:00",
+  "generatedAt": "2026-08-25T15:06:57+00:00",
   "cities": {
     "nyc": {
       "upserts": [],
@@ -42,7 +42,7 @@
           "endDate": null,
           "regularPrice": null,
           "runtime": null,
-          "ageGuidance": null,
+          "ageGuidance": "ages Theatre",
           "officialSite": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "buyLink": "https://www.broadwayinhollywood.com/events/detail/spamalot",
           "officialSiteLabel": "Official event page",
